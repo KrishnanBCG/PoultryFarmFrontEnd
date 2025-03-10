@@ -1,0 +1,234 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div>
+                    <div class="compoenet-inner-block" *ngIf="!isAddComponnet && !isEditComponnet">
+                        <div class="search-block-list">
+                            <div class="component-header clearfix">
+                                <div class="header-component-left">
+                                    <div class="back-icon">
+                                        <a> <i class="fa fa-chevron-left" aria-hidden="true"></i> </a>
+                                    </div>
+                                    <span> Back </span>
+                                </div>
+                                <div class="header-component-right" (click)="callAdd()">
+                                    <a role="button" class="btn btn-blue"> Add Batch</a>
+                                </div>
+
+                            </div>
+                            <div class="component-contents">
+                                <div class="search-block-wrap">
+                                    <div class="row verticls labl-clr">
+                                        <div class="col-md-3">
+                                            <div class="form-group relative search-icons search-icons-notRequired">
+                                                <label>Eg: Batch Name</label> <input type="text" class="form-control"
+                                                    [(ngModel)]="term" notRequired>
+
+                                                <i class="fa fa-search" style=" margin-bottom: 2vh;"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end of search -->
+                            <div class="tab-content">
+                                <div class="tab-contents-wrap">
+                                    <div class="tab-contents-block">
+                                        <div class="tab-block-conetnts">
+                                            <table class="table table-hover table-style">
+                                                <thead>
+                                                    <tr>
+                                                        <th>S.No</th>
+                                                        <th>Name</th>
+                                                        <th class="text-center">Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr *ngFor="let x of BatchMasterlist; let i = index">
+                                                        <td>{{i+1}}</td>
+                                                        <td>{{x.batchName}}</td>
+                                                        <td class="action-table text-center">
+                                                            <ul>
+                                                                <li>
+                                                                    <a role="button" data-toggle="tooltip" title="Edit"
+                                                                        (click)="callEdit(x.id)">
+                                                                        <img src="../../../assets/img/edit.png"
+                                                                            alt="image" /> </a>
+                                                                </li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+
+                                            </table>
+                                            <div class="pagi-wrap text-center">
+                                                <div class="pagi-block">
+                                                    <pagination-controls (pageChange)="p = $event">
+                                                    </pagination-controls>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-------------------Edit------------------->
+                    <div *ngIf="isAddComponnet || isEditComponnet" class="compoenet-inner-block col-lg-12">
+                        <div aria-labelledby="title">
+                            <div class="component-header clearfix   ">
+                                <div *ngIf="isAddComponnet && !isEditComponnet" class="header-component-left">
+                                    Add Batch
+                                </div>
+                                <div *ngIf="!isAddComponnet && isEditComponnet" class="header-component-left">
+                                    Edit Batch
+                                </div>
+
+                            </div>
+                            <div class="component-contents">
+
+                                <!-- end of search -->
+                                <div class="tab-content" [formGroup]="batchMasterForm">
+                                    <div class="tab-contents-wrap">
+                                        <div class="tab-contents-block">
+                                            <div class="tab-block-conetnts">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="form-group relative">
+                                                            <input type="text" class="form-control"
+                                                                formControlName="batchName" required>
+                                                            <span class="floating-label"> Unit Name</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-4">
+                                                        <div class="form-group relative">
+                                                            <input type="date" class="form-control" formControlName="startDate"  [attr.min]="todayDate" required>
+                                                            <span class="floating-label"> Start Date</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="col-md-4">
+                                                        <div class="form-group relative">
+                                                            <input type="number" class="form-control"
+                                                                formControlName="capacity" required>
+                                                            <span class="floating-label"> Capacity</span>
+                                                        </div>
+                                                    </div> -->
+
+                                                    <div class=" block-heading mt-4">
+                                                        Add Unit
+                                                    </div>
+
+                                                    <div class="row search-labl">
+                                                        <div class="col-md-12">
+                                                            <div class="header-left">
+                                                                <div class="form-group relative">
+                                                                    <ngx-select class="form-control-select"
+                                                                        [items]="UnitMasterlist" optionValueField="id"
+                                                                        optionTextField="unitName"
+                                                                        formControlName="unitName">
+                                                                    </ngx-select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="button-controls header-right"
+                                                                style="margin-top: -5vh;margin-bottom: 4vh;">
+                                                                <input type="button" *ngIf="isAddComponnet" value="Add"
+                                                                    class="btn btn-primary " (click)="addunit()" />
+                                                                <input type="button" *ngIf="isEditComponnet"
+                                                                    value="Edit" class="btn btn-primary " />
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-12" *ngIf="tableDataList.length > 0">
+                                                            <div class="table-container">
+                                                                <table
+                                                                    class="table table-hover table-style example-container">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th> Unit</th>
+                                                                            <th class="text-center">Capacity</th>
+                                                                            <th>Covered</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr
+                                                                            *ngFor="let x of tableDataList; let i = index">
+                                                                            <td>{{x.unitName}}</td>
+                                                                            <td>
+                                                                                <input type="text"
+                                                                                    value="{{x.capacity}}"
+                                                                                    class="form-control" required
+                                                                                    readonly>
+                                                                            </td>
+                                                                            <td>
+                                                                                <input type="number"
+                                                                                    class="form-control" required
+                                                                                    (input)="updateCovered(i, $event.target.value)"
+                                                                                    value="{{x.covered}}">
+                                                                                <!-- <span>Remaining : {{x.capacity - 5}}</span> -->
+                                                                            </td>
+                                                                        </tr>
+
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="button-controls">
+                                                            <input *ngIf="!isEditComponnet" type="button"
+                                                                (click)="onSave()" [disabled]="isBtnSubmitted"
+                                                                value="Save" class="btn btn-primary" />
+                                                            <input *ngIf="isEditComponnet" type="button"
+                                                                (click)="onEdit()" [disabled]="isBtnSubmitted"
+                                                                value="Update" class="btn btn-primary" />
+                                                            <input type="button" (click)="onClear()" value="Cancel"
+                                                                class="btn btn-clear" style="color: white;" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-------------------Edit------------------->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': SavedMessage }">
+    <i class="far fa-thumbs-up"></i> <span> Saved Successfully </span>
+</div>
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': SavedErrorMessage }">
+    <i class="far fa-thumbs-down"></i> <span> Some Error to Saved</span>
+</div>
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': UpdateMessage }">
+    <i class="far fa-thumbs-up"></i> <span> Updated Successfully </span>
+</div>
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': UpdateErrorMessage }">
+    <i class="far fa-thumbs-down"></i> <span> Some Error to Updated </span>
+</div>
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': DeletedMessage }">
+    <i class="far fa-thumbs-up"></i> <span> Deleted Successfully </span>
+</div>

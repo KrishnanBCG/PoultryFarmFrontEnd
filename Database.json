@@ -1,0 +1,175 @@
+{
+  "userDetails": [
+    {
+      "companyName": "BCG Chicken Poultry",
+      "userName": "Gopikrishnan Balasubramanian",
+      "email": "Admin@scandexbd.com",
+      "password": "Krishnan_248",
+      "firstName": "Gopi",
+      "lastName": "Krishnan",
+      "address": "Dharapuram",
+      "city": "Dharapuram",
+      "country": "India",
+      "postalcode": "638672",
+      "abortme": "",
+      "id": 1
+    }
+  ],
+  "UnitMaster": [
+    {
+      "unitName": "South",
+      "capacity": 3500,
+      "userid": "1",
+      "id": 1
+    },
+    {
+      "unitName": "North",
+      "capacity": 3500,
+      "userid": "1",
+      "id": 2
+    }
+  ],
+  "BatchMaster": [
+    {
+      "userId": "1",
+      "batchName": "First Batch",
+      "unitName": null,
+      "completedStatus": false,
+      "startDate": "2025-01-21",
+      "BatchUnitData": [
+        {
+          "unitName": "South",
+          "capacity": 3500,
+          "userid": "1",
+          "id": 1,
+          "covered": "3000"
+        },
+        {
+          "unitName": "North",
+          "capacity": 3500,
+          "userid": "1",
+          "id": 2,
+          "covered": "3500"
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "DeadEntry": [
+    {
+      "batchId": 1,
+      "batchName": "First Batch",
+      "entryDate": "2025-02-01",
+      "lastEntry": false,
+      "startDate": "2025-01-21",
+      "TotalRemaining": 6350,
+      "Entry": [
+        {
+          "unit": "South",
+          "covered": "3000",
+          "deathcount": 50,
+          "remaining": 2950
+        },
+        {
+          "unit": "North",
+          "covered": "3500",
+          "deathcount": 100,
+          "remaining": 3400
+        }
+      ],
+      "id": 1
+    },
+    {
+      "batchId": 1,
+      "batchName": "First Batch",
+      "entryDate": "2025-02-02",
+      "lastEntry": false,
+      "startDate": "2025-01-21",
+      "TotalRemaining": 6150,
+      "Entry": [
+        {
+          "unit": "South",
+          "covered": "3000",
+          "deathcount": 150,
+          "remaining": 2850
+        },
+        {
+          "unit": "North",
+          "covered": "3500",
+          "deathcount": 200,
+          "remaining": 3300
+        }
+      ],
+      "id": 2
+    },
+    {
+      "batchId": 1,
+      "batchName": "First Batch",
+      "entryDate": "2025-02-03",
+      "lastEntry": false,
+      "startDate": "2025-01-21",
+      "TotalRemaining": 6150,
+      "Entry": [
+        {
+          "unit": "South",
+          "covered": "3000",
+          "deathcount": 150,
+          "remaining": 2850
+        },
+        {
+          "unit": "North",
+          "covered": "3500",
+          "deathcount": 200,
+          "remaining": 3300
+        }
+      ],
+      "id": 3
+    },
+    {
+      "batchId": 1,
+      "batchName": "First Batch",
+      "entryDate": "2025-02-04",
+      "lastEntry": false,
+      "startDate": "2025-01-21",
+      "TotalRemaining": 3000,
+      "Entry": [
+        {
+          "unit": "South",
+          "covered": "3000",
+          "deathcount": 1500,
+          "remaining": 1500
+        },
+        {
+          "unit": "North",
+          "covered": "3500",
+          "deathcount": 2000,
+          "remaining": 1500
+        }
+      ],
+      "id": 4
+    },
+    {
+      "batchId": 1,
+      "batchName": "First Batch",
+      "entryDate": "2025-03-07",
+      "lastEntry": true,
+      "startDate": "2025-01-21",
+      "TotalRemaining": 6465,
+      "Entry": [
+        {
+          "unit": "South",
+          "covered": "3000",
+          "deathcount": 15,
+          "remaining": 2985
+        },
+        {
+          "unit": "North",
+          "covered": "3500",
+          "deathcount": 20,
+          "remaining": 3480
+        }
+      ],
+      "id": 5
+    }
+  ]
+}

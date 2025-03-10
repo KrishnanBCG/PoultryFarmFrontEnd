@@ -1,0 +1,120 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div>
+                    <div class="compoenet-inner-block">
+                        <div class="search-block-list">
+                            <div class="component-header clearfix   ">
+                                <div class="header-component-left">
+                                    <div class="back-icon">
+                                        <a [routerLink]="['../../entry-list']"> <i class="fa fa-chevron-left"
+                                                aria-hidden="true"></i> </a>
+                                    </div>
+                                    <span> {{titleName}} Report</span>
+                                </div>
+                                <!-- <div class="header-component-right">
+                                    <a role="button"  class="btn btn-blue"> Add Payer </a>
+                                    <button nbButton nbPopoverTrigger="hover" [nbPopover]="templateRef" nbPopoverPlacement="bottom" outline
+                                        class="export-align">
+                                        <nb-icon icon="cloud-download-outline"></nb-icon>
+                                    </button>
+                                    <ng-template #templateRef>
+                                        <div style="padding: 10px;">
+                                            <table class="table table-hover">
+                                                <tr>
+                                                    <td  style="cursor: pointer;">
+                                                        <span>CSV</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="cursor: pointer;">
+                                                        <span>Excel</span>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </ng-template>
+                                </div> -->
+                            </div>
+                            <!-- end of search -->
+                            <div class="tab-content">
+                                <div class="tab-contents-wrap">
+                                    <div class="tab-contents-block">
+                                        <div class="tab-block-conetnts">
+
+                                            <table class="table table-hover table-style table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>sno</th>
+                                                        <th colspan="4">Entry Date</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody *ngFor="let data of loadTableData; let i = index;">
+                                                    <tr>
+                                                        <td rowspan="4">{{i+1}}</td>
+                                                        <td colspan="4">{{data.entryDate}} - <b>[{{countDays(data.entryDate)}}] </b></td>
+                                                    </tr>
+                                                    <tr>
+
+                                                        <td style="background-color: #f2f2f2; color: #852677;">unit</td>
+                                                        <td style="background-color: #f2f2f2; color: #852677;">Dead</td>
+                                                        <td style="background-color: #f2f2f2; color: #852677;">Remaining</td>
+                                                    </tr>
+                                                    <tr *ngFor="let x of data.Entry">
+
+                                                        <td>{{x.unit}}</td>
+                                                        <td>{{x.deathcount}}</td>
+                                                        <td ></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3"></td>
+                                                        <td style="color: green;">{{data.TotalRemaining}}</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <div class="pagi-wrap text-center">
+                                                <div class="pagi-block">
+                                                    <pagination-controls (pageChange)="p = $event">
+                                                    </pagination-controls>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-------------------Edit------------------->
+                    <!-------------------Edit------------------->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': SavedMessage }">
+    <i class="far fa-thumbs-up"></i> <span> Saved Successfully </span>
+</div>
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': SavedErrorMessage }">
+    <i class="far fa-thumbs-down"></i> <span> Some Error to Saved</span>
+</div>
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': UpdateMessage }">
+    <i class="far fa-thumbs-up"></i> <span> Updated Successfully </span>
+</div>
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': UpdateErrorMessage }">
+    <i class="far fa-thumbs-down"></i> <span> Some Error to Updated </span>
+</div>
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': DeletedMessage }">
+    <i class="far fa-thumbs-up"></i> <span> Deleted Successfully </span>
+</div>

@@ -1,0 +1,6 @@
+@media print {
+  @page {
+    size: 594mm 420mm;
+    margin: 0;
+  }
+}

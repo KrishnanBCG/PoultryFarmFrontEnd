@@ -1,0 +1,218 @@
+
+/* abha-content-popup */
+
+.info-details {
+    background: #E8F4FD;
+    padding: 10px 15px;
+  }
+  .info-details p {
+      margin-bottom: 0px;
+      color: #000;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.8em !important;
+  }
+  .abha-inner-details h4 {
+      font-size: 17px;
+  }
+  .abha-inner-details{
+    padding: 0 15px 10px;
+  }
+  .abha-inner-details label {
+    margin-bottom: 10px;
+    line-height: 1.7em;
+  }
+  .vbtn {
+    border-radius: 4px;
+    background: #974297;
+    color: white;
+  }
+  .wbtn {
+    border-radius: 4px;
+    border: 1px solid #974297;
+    background: white;
+    color: #974297;
+  }
+  .vbtn,  .wbtn {
+    font-size: 14px !important;
+  }
+  .abha-btns {
+      border-top: 1px solid #E6E6E6;
+      padding: 15px;
+      text-align: center;
+  }
+  .wbtn:hover {
+    color: unset !important;
+  }
+  .er-msg {
+    border-radius: 4px;
+    background: #FDECEA;
+    margin: 0;
+    padding: 5px;
+    font-weight: 500 !important;
+    color: #611A15 !important;
+  }
+  .otp-msg {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #222B45;
+  }
+  .abha-btns input {
+    min-width: 250px;
+  }
+  .form-control {   
+    font-size: 13.2px !important;
+    font-weight: 300 !important;  
+}
+
+ 
+ /* Progress bar*/
+ .progressbar-row{
+    border-bottom: 1px solid #E6E6E6;
+    background: #FAFAFA;
+    margin-bottom: 1rem;
+}  
+
+.abha-contents #progressbar {
+margin-bottom: 10px;
+overflow: hidden;
+color: lightgrey
+}
+
+.abha-contents #progressbar .active {
+color: #534CC1
+}
+
+.abha-contents #progressbar li {
+list-style-type: none;
+font-size: 14px;
+width: 34%;
+float: left;
+position: relative;
+font-weight: 400;
+text-align: left;
+}
+
+.abha-contents #progressbar #step1:before {
+font-family: "Material Icons";
+content: "\e876";
+}
+
+
+.abha-contents #progressbar #step2:before {
+font-family: "Material Icons";
+content: "\e876";
+}
+
+.abha-contents #progressbar #step3:before {
+font-family: "Material Icons";
+content: "\e876";
+}
+
+.abha-contents #progressbar #step4:before {
+font-family: "Material Icons";
+content: "\e876";
+}
+
+.abha-contents #progressbar li:before  {
+width: 25px;
+height: 25px;
+line-height: 19px;
+display: block;
+font-size: 16px;
+color: #ffffff;
+background: lightgray;
+border-radius: 50%;
+margin: 6px 0 10px 0;
+padding: 2px;
+border: 2px solid #fff;
+z-index: 1;
+position: relative;
+}
+
+.abha-contents #progressbar li:after {
+content: '';
+width: 100%;
+height: 8px;
+background: lightgray;
+position: absolute;
+left: 0;
+top: 15px;
+z-index: 0;
+}
+.abha-contents #progressbar li:last-child {
+    width: 6%;
+}
+.abha-contents #progressbar li:last-child::after{
+    width: 0!important;
+}
+.abha-contents #progressbar li.active:before,
+.abha-contents #progressbar li.active:after {
+background: #534CC1
+}
+#form {
+text-align: center;
+position: relative;
+margin-top: 10px
+}
+
+#form fieldset {
+background: white;
+border: 0 none;
+border-radius: 0.5rem;
+box-sizing: border-box;
+width: 100%;
+}
+.abha-acc h4{
+font-size: 14px!important;
+font-weight: 400;
+}
+.abha-acc p{
+    font-size: 13.2px;
+}
+.abha-acc label {
+    margin-bottom: 5px!important;
+    font-weight: 500!important;
+}
+.abha-acc .vbtn{
+    font-size: 13.5px !important;
+    font-weight: 400 !important;
+}
+.suggestions h4{
+    font-size: 13px !important;
+    font-weight: 500;
+}
+.suggestions-row p{
+    color: #974297;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+.suggestions-row{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.alert-danger,.alert-success{
+    background-color: #fff !important;
+    border-color: #fff !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 2px;
+    font-size: 13.5px;
+    padding-left: 0;
+}
+.alert-success{
+    color: #3D7427;
+}
+
+.alert-danger{
+    color: #943B23;
+}
+.fixed-filed input{
+    padding-left: 4px;
+    border-bottom: 1px solid #D2D2D2 !important;
+    background: #F5F5F5 !important;
+    font-weight: 500 !important;
+    color: #222B45 !important;
+}

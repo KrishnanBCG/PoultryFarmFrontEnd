@@ -1,0 +1,150 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header card-header-danger">
+                        <h4 class="card-title ">Daily Death Report</h4>
+                        <p class="card-category"> Today Date : {{LiveDate | date: 'fullDate'}}</p>
+                    </div>
+                    <div class="card-body">
+
+
+                        <div class="compoenet-inner-block col-lg-12" [formGroup]="DailyEntryForm">
+                            <div aria-labelledby="title">
+                                <div class="component-contents">
+
+                                    <!-- end of search -->
+                                    <div class="tab-content">
+                                        <div class="tab-contents-wrap">
+                                            <div class="tab-contents-block">
+                                                <div class="tab-block-conetnts">
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <div class="form-group relative">
+                                                                <input type="text" class="form-control" required formControlName="batchName">
+                                                                <span class="floating-label"> Batch Name</span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4">
+                                                            <div class="form-group relative">
+                                                                <input type="date" class="form-control" [attr.min]="todayDate" formControlName="entryDate" >
+                                                                <span class="floating-label"> Entry Date</span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-3" style="display: flex;">
+                                                            <div class="form-group relative">
+                                                                <label class="container" style="color: gray;">Last Entry
+                                                                    <input type="checkbox" formControlName="lastEntry">
+                                                                    <span class="checkmark"></span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class=" block-heading mt-4">
+                                                            Dead Entry
+                                                        </div>
+
+                                                        <div class="">
+                                                            <div class="col-md-12">
+                                                                <div class="table-container">
+                                                                    <table
+                                                                        class="table table-hover table-style example-container">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th> Unit</th>
+                                                                                <!-- <th class="text-center">Capacity</th> -->
+                                                                                <th>Covered</th>
+                                                                                <th>Death Count</th>
+                                                                                <th>Balance</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody formArrayName="Entry">
+                                                                            <tr *ngFor="let process of items.controls; let i=index" [formGroupName]="i">
+                                                                                <td>
+                                                                                    <input type="text" formControlName="unit"
+                                                                                    class="form-control" required
+                                                                                    readonly>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <input type="number"
+                                                                                        class="form-control" required
+                                                                                        formControlName="covered" readonly>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <input type="number"
+                                                                                        class="form-control" required
+                                                                                        formControlName="deathcount">
+                                                                                </td>
+                                                                                <td>
+                                                                                    <input type="number"
+                                                                                        class="form-control" required
+                                                                                        formControlName="remaining" readonly>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <!-- <tr>
+                                                                                <td colspan="3" style="text-align: end;">Total</td>
+                                                                                <td><input type="text"
+                                                                                    class="form-control" required
+                                                                                    formControlName="TotalRemaining" readonly></td>
+                                                                              </tr> -->
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="button-controls">
+                                                                <input type="button" (click)="onSave()"
+                                                                    [disabled]="Savedisable" value="Save"
+                                                                    class="btn btn-primary" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------->
+<div class="succesfull-info-popup" [ngClass]="{ 'open': SavedMessage }">
+    <i class="far fa-thumbs-up"></i> <span>  Saved Successfully </span>
+</div> 
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': SavedErrorMessage }">
+    <i class="far fa-thumbs-down"></i> <span> Some Error to Saved</span>
+</div> 
+
+<!-- <div class="succesfull-info-popup" [ngClass]="{ 'open': UpdateMessage }">
+    <i class="far fa-thumbs-up"></i> <span> Updated Successfully </span>
+</div>
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': UpdateErrorMessage }">
+    <i class="far fa-thumbs-down"></i> <span> Some Error to Updated </span>
+</div>
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': DeletedMessage }">
+    <i class="far fa-thumbs-up"></i> <span>  Deleted Successfully </span>
+</div> -->
+<div class="succesfull-info-popup" [ngClass]="{ 'open': warningmsg }">
+    <i class="far fa-thumbs-down"></i> <span> Entry is done on this Date </span>
+</div>
+<!---------------------------------------------------------------------------------------------------------------------------->

@@ -1,0 +1,94 @@
+/*!
+ * Copyright (c) Akveo 2019. All Rights Reserved.
+ * Licensed under the Single Application / Multi Application License.
+ * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+
+
+.cal-week-view .cal-hour-segment.cal-after-hour-start .cal-time {
+  display: block !important;
+}
+
+.menuicons{
+  width: 18px !important;
+  margin-top:-30px !important;
+}
+
+#cal-wekkview .cal-week-view mwl-calendar-week-view-header .cal-day-headers{
+  position: sticky !important;
+  top: 0px  !important;
+  background: white !important;
+}
+.nb-theme-default nb-layout .layout .layout-container .content nb-layout-footer nav
+
+{
+
+  background-color: #fdf8f2 !important;
+
+  position: fixed;
+
+  text-align: center !important;
+
+  bottom: 0;
+
+  width: 100vw;
+
+}
+
+.oprow{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100% !important;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.opcolsix{
+  flex: 0 0 45%;
+  max-width: 45% !important;
+  width: 45% !important;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.opcolseven{
+  flex: 0 0 48%;
+  max-width: 48% !important;
+  width: 48% !important;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.opcolsevens{
+  flex: 0 0 42%;
+  max-width: 42% !important;
+  width: 42% !important;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.top-fontsize{
+  font-size: 14px !important;
+}
+
+.footer-fontsize{
+  font-size: 12px !important;
+}
+
+
+.footer-tab{
+  text-align: right !important;
+}
+
+
+.foot-print-cls-two{
+position: absolute;
+top: 15px;
+right: 30px;
+}

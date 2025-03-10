@@ -1,0 +1,116 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div>
+                    <div class="compoenet-inner-block">
+                        <div class="search-block-list">
+                            <!-- <div class="component-header clearfix">
+                                <div class="header-component-left">
+                                    <div class="back-icon">
+                                        <a> <i class="fa fa-chevron-left" aria-hidden="true"></i> </a>
+                                    </div>
+                                    <span> Back </span>
+                                </div>
+                                <div class="header-component-right">
+                                    <a role="button" class="btn btn-blue"> Add Batch</a>
+                                </div>
+
+                            </div> -->
+                            <div class="component-contents">
+                                <div class="search-block-wrap">
+                                    <div class="row verticls labl-clr">
+                                        <div class="col-md-3">
+                                            <div class="form-group relative search-icons search-icons-notRequired">
+                                                <label>Eg: Batch Name</label> <input type="text" class="form-control"
+                                                     notRequired>
+
+                                                <i class="fa fa-search" style=" margin-bottom: 2vh;"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end of search -->
+                            <div class="tab-content">
+                                <div class="tab-contents-wrap">
+                                    <div class="tab-contents-block">
+                                        <div class="tab-block-conetnts">
+                                            <table class="table table-hover table-style">
+                                                <thead>
+                                                    <tr>
+                                                        <th>S.No</th>
+                                                        <th>Name</th>
+                                                        <th class="text-center">Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr *ngFor="let x of BatchlistData; let i = index">
+                                                        <td>{{i+1}}</td>
+                                                        <td>{{x.batchName}}</td>
+                                                        <td class="action-table text-center">
+                                                            <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                                                                <mat-icon>more_vert</mat-icon>
+                                                              </button>
+                                                              <mat-menu #menu="matMenu">
+                                                                <button mat-menu-item (click)="deadEntryRouter(x)">
+                                                                    <i class="fa-solid fa-skull" style="font-size: large;"></i>
+                                                                  <span style="margin-left: 5vh;">Dead Entry</span>
+                                                                </button>
+                                                                <button mat-menu-item (click)="deadEntryReport(x)">
+                                                                    <i class="fa-solid fa-book-skull" style="font-size: large;"></i>
+                                                                      <span style="margin-left: 5vh;">Dead Report</span>
+                                                                    </button>
+                                                                
+                                                              </mat-menu>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+
+                                            </table>
+                                            <div class="pagi-wrap text-center">
+                                                <div class="pagi-block">
+                                                    <pagination-controls (pageChange)="p = $event">
+                                                    </pagination-controls>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-------------------Edit------------------->
+                    <!-------------------Edit------------------->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': SavedMessage }">
+    <i class="far fa-thumbs-up"></i> <span>  Saved Successfully </span>
+</div> 
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': SavedErrorMessage }">
+    <i class="far fa-thumbs-down"></i> <span> Some Error to Saved</span>
+</div> 
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': UpdateMessage }">
+    <i class="far fa-thumbs-up"></i> <span> Updated Successfully </span>
+</div>
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': UpdateErrorMessage }">
+    <i class="far fa-thumbs-down"></i> <span> Some Error to Updated </span>
+</div>
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': DeletedMessage }">
+    <i class="far fa-thumbs-up"></i> <span>  Deleted Successfully </span>
+</div>

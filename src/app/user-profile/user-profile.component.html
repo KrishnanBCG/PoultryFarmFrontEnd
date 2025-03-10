@@ -1,0 +1,120 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="card">
+                  <div class="card-header card-header-danger">
+                      <h4 class="card-title">Edit Profile</h4>
+                      <p class="card-category">Complete your profile</p>
+                  </div>
+                  <div class="card-body">
+                      <form [formGroup]="profileUpdateDetails">
+                          <div class="row">
+                              <div class="col-md-5">
+                                <div class="form-group relative">
+                                  <!-- <label> Company</label> -->
+                                    <input placeholder="Company (disabled)" class="form-control" disabled formControlName="companyName">
+                                    <!-- <span class="floating-label"> Company</span> -->
+                                  </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="form-group relative">
+                                    <input class="form-control" placeholder="Username" formControlName="userName">
+                                    <span class="floating-label">Username</span>
+                                  </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="form-group relative">
+                                    <input class="form-control" placeholder="Email address" type="email" formControlName="email">
+                                    <span class="floating-label">Email</span>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group relative">
+                                  <input class="form-control" placeholder="Fist Name" type="text" formControlName="firstName">
+                                  <span class="floating-label"> Fist Name</span>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group relative">
+                                  <input class="form-control" placeholder="Last Name" type="text" formControlName="lastName">
+                                  <span class="floating-label"> Last Name</span>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                <div class="form-group relative">
+                                  <input class="form-control" placeholder="Adress" type="text" formControlName="address">
+                                  <span class="floating-label"> Address</span>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-4">
+                                <div class="form-group relative">
+                                  <input class="form-control" placeholder="City" type="text" formControlName="city">
+                                  <span class="floating-label"> City</span>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="form-group relative">
+                                  <input class="form-control" placeholder="Country" type="text" formControlName="country">
+                                  <span class="floating-label"> Country</span>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="form-group relative">
+                                  <input class="form-control"  type="text" formControlName="postalcode">
+                                  <span class="floating-label"> Postal Code</span>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                <label>About Me</label>
+                                <div class="form-group relative">
+                                  <textarea class="form-control" formControlName="abortme"></textarea>
+                                  </div>
+                                  <!-- <div class="form-group">
+
+                                      <div class="form-group">
+                                          <label class="bmd-label-floating"> Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.</label>
+                                          <textarea class="form-control" rows="5"></textarea>
+                                      </div>
+                                  </div> -->
+                              </div>
+                          </div>
+                          <button mat-raised-button type="submit" class="btn btn-danger pull-right" (click)="updateprofile()">Update Profile</button>
+                          <div class="clearfix"></div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': SavedMessage }">
+  <i class="far fa-thumbs-up"></i> <span>  Saved Successfully </span>
+</div> 
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': SavedErrorMessage }">
+  <i class="far fa-thumbs-down"></i> <span> Some Error to Saved</span>
+</div> 
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': UpdateMessage }">
+  <i class="far fa-thumbs-up"></i> <span> Updated Successfully </span>
+</div>
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': UpdateErrorMessage }">
+  <i class="far fa-thumbs-down"></i> <span> Some Error to Updated </span>
+</div>
+
+<div class="succesfull-info-popup" [ngClass]="{ 'open': DeletedMessage }">
+  <i class="far fa-thumbs-up"></i> <span>  Deleted Successfully </span>
+</div>
