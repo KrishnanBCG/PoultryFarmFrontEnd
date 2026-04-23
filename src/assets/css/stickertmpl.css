@@ -1,0 +1,107 @@
+td.status.new span{
+    background: #b8c4cc;
+  }
+  .sympt{
+    border: 1px solid #d2d2d2;
+    padding: 5px 12px;
+    border-radius: 46px;   
+    font-size: 16px;
+    margin-right: 8px;
+  }
+  .headpop{
+      font-size: 19px; 
+      padding: 15px 5px;
+     
+  }
+  .last-visit-datevac {
+    font-size: 16px;
+    color: #ABABAB;
+    font-style: italic;
+    display: block;
+    float: right;
+    /* padding-right: 50px; */
+  }
+  .popborder  {
+  border-radius: 3px;
+    box-shadow: 0px 0px 7px #e0dddd;
+    padding: 10px 10px;    
+      height: 70px;
+  }
+  
+  .rowclr{
+    background-color: #f5f1f4; 
+    padding-top: 15px;
+    margin: 10px 5px;
+  }
+  .adsali{
+    display: flex;
+  }
+  .alignp{
+    margin-inline-start: auto;
+      padding-right: 10px;
+  }
+  
+  .lightbox-contents {
+    width: 70% !important;
+  }
+  
+  .plist{
+    width: 100% !important;
+  }
+  .popborder{
+    cursor: pointer;
+  }
+  .btn-violet{
+    width:90px;
+    border: 1px solid #852677;
+    padding: 4px 25px;
+    color: #852677;
+  }
+  .card-header {
+    background: #F5F1F4;
+  }
+  .table tbody tr:last-child td{
+    border-bottom: none!important;   
+  }
+  .ip .sticker-head {
+    margin: 0; 
+  }
+ .ip .card {
+    border-radius: 0!important;
+    padding: 10px 5px 5px 15px;  
+    margin: 0 3mm; 
+    float: left; 
+    text-align: left; 
+    border: none!important;
+  }
+
+
+  .ip .sticker-head table td,
+  .op .sticker-head h3.fs-9, .op .sticker-head table td{
+    font-weight: 700;
+  }
+  .ip .sticker-head table td{
+    padding: 1px 5px 0 5px!important;
+    font-size:12.3px!important;  
+    vertical-align: top!important;  
+  }
+  .ip .sticker-head table td .fs-9{
+    font-size:13px!important;
+  }
+  
+
+  .op .sticker-head h3.fs-9{
+    padding: 10px 0 !important;
+    font-size: 14px!important;     
+  }
+
+  .op .sticker-head table td{
+    padding: 2px 10px !important;
+    font-size:14px!important;    
+  }
+
+  .et-preview-panel #stickerTmpl{
+    .table table, .table th, .table td {
+        border: none !important;
+    }
+}

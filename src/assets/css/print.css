@@ -1,0 +1,2763 @@
+body
+{
+  font-family: 'Roboto', sans-serif!important;
+  font-size: 14px;
+  color: #333333;
+  -webkit-print-color-adjust: exact;
+}
+.ipprint{
+  white-space: nowrap;
+}
+
+.indent-print .print-receipt-detail {
+  width: 33% !important;
+}
+
+
+.sales-print{
+  white-space:nowrap;
+}
+
+.nb-theme-default nb-layout .layout
+{
+  font-family: 'Roboto', sans-serif!important;
+  font-size: 14px;
+}
+p, h1, h2, h3, h4, h5, h6
+{
+  margin-top: 0;
+}
+
+.oprow{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100% !important;
+  margin-right: 0;
+  margin-left: 0;
+  column-gap: 30% !important;
+}
+
+.opcolsix{
+  flex: 0 0 45%;
+  max-width: 45% !important;
+  width: 45% !important;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.opcolseven{
+  flex: 0 0 42%;
+  max-width: 42% !important;
+  width: 42% !important;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.top-fontsize{
+  font-size: 14px !important;
+}
+
+
+.footer-fontsize{
+  font-size: 12px !important;
+}
+
+.footer-tab{
+  text-align: right !important;
+}
+
+.foot-print-cls-two{
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  }
+
+ .payer-info li
+ {
+     list-style: none;
+ }
+ .lightbox-title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.25rem;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+ul
+{
+    padding-left: 0;
+}
+.payer-info li {
+    width: 33.3%;
+    float: left;
+    margin-bottom: 10px;
+}
+.payer-info label {
+    font-size: 14px;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+.payer-info p {
+
+    margin: 0;
+    margin-top: 5px;
+    line-height: 1.6!important;
+}
+.block-heading-ehr {
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.payer-info-big li {
+    width: 100%;
+}
+.summary-dialog-box .tab-block-conetnts {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.payer-info::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.medical-history-dialog-block li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: none;
+}
+.summary-dialog-box .tab-block-conetnts:last-child {
+
+}
+.printer-hostital-logo
+{
+  max-width: 150px;
+    float: left;
+}
+.printer-hostital-logo img
+{
+  max-width: 100%;
+}
+.printer-hostital-details
+{
+  width: calc(100% - 150px);
+  float: left;
+  text-align: right;
+}
+.print-wrap
+{
+    margin: auto;
+    /* padding: 20px;
+    margin-top: 20px; */
+    font-size: 16px;
+}
+.printer-hostital-details h3
+{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.printer-hostital-details address
+{
+  max-width: 250px;
+  margin-left: auto;
+  line-height: 22px;
+}
+.printer-hostital-details p
+{
+  display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+/* .printer-header
+{
+  padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+} */
+.print-receipt-bill-details h3
+{
+  font-size: 16px;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+}
+.print-receipt-bill-details h4
+{
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  margin-top: 0;
+}
+.print-receipt-details address
+{
+  max-width: 250px;
+  margin-right: auto;
+  line-height: 22px;
+}
+.print-receipt-details p
+{
+  display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+.print-receipt-details
+{
+     width: 50%;
+    float: left;
+}
+.print-receipt-detail address
+{
+  max-width: 250px;
+  margin-right: auto;
+  line-height: 22px;
+}
+.print-receipt-detail p
+{
+  display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+.print-receipt-detail
+{
+  width: 25%;
+    float: left;
+}
+.print-bill-details
+{
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+.appt-vitals li
+{
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  padding: 8px 0px;
+}
+.width-16 .col-lg-2 {
+  width:16.6% !important;
+
+}
+.width-16{
+  width:100% !important;
+}
+.flex-column-ip
+{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.appt-vitals ul
+{
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+}
+.appt-vitals li.mg-10
+{
+  margin-bottom: 0;
+}
+.appt-vitals li:nth-child(odd)
+{
+  background: #f7f7f7;
+}
+.appoint-user-det-bck
+{
+  background: #ffffff;
+  padding: 0px 10px;
+}
+.print-bill-details-block p
+{
+  margin-bottom: 0;
+}
+.print-bill-details-block h3
+{
+  margin-bottom: 10px;
+}
+.print-bill-details-block
+{
+  margin-bottom: 20px;
+}
+.print-bill-details-block:last-child
+{
+  margin-bottom: 0;
+}
+ .print-receipt-bill-details
+{
+  padding-bottom: 20px;
+  /* border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 0; */
+}
+.print-table-part table th
+{
+  background: transparent;
+  color: #222b45;
+}
+.prict-table-th
+{
+  width: 100px;
+}
+.print-discont-label
+{
+  width: 140px;
+  float: right;
+}
+.print-discont-text
+{
+  width: 140px;
+  float: right;
+  padding: 10px 5px;
+    font-weight: 700;
+    border-bottom: 1px solid #dee2e6
+}
+.bb-none {
+  border-bottom: none!important;
+}
+.print-discont-label
+{
+  width: 140px;
+  float: right;
+  padding: 10px 5px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-right: 0;
+}
+.print-discount-subtotal-wrap
+{
+    /* margin-right: -5px; */
+    margin-top: -5px;
+}
+.print-doctor-name-grand-total
+{
+  background: #F2F2F2;
+}
+.print-discont-doctor-name
+{
+  float: left;
+  padding: 10px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.print-discont-doctor-name span
+{
+  font-weight: 400;
+  padding-left: 5px;
+  font-size: 14px;
+}
+.print-grand-taotal
+{
+  font-size: 24px;
+  font-weight: 500;
+}
+.print-discont-subtotal-bck .print-grand-taotal
+{
+  border-bottom: none;
+}
+.print-discont-subtotal-bck .print-discont-text
+{
+
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-left: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+}
+.table td {
+  padding: 15px 0px 15px 24px !important;
+}
+.table td, table th
+{
+  border-left: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+}
+.print-table-part table th {
+    background: transparent;
+    color: #222b45;
+}
+table.table thead th {
+    vertical-align: middle;
+}
+.table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #e6e6e6;
+}
+.sn_class {
+    width: 80px;
+    max-width: 155px !important;
+    text-align: left;
+}
+.prict-table-th {
+    width: 100px;
+}
+ .text-right {
+    text-align: right !important;
+}
+.text-left {
+    text-align: left !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.table tr:last-child td {
+    border-bottom: 1px solid #e6e6e6;
+}
+.table th, .table td {
+    vertical-align: middle;
+    word-break: break-word;
+}
+thead { display: table-header-group !important}
+tfoot { display: table-row-group !important}
+tr { page-break-inside: avoid !important}
+
+@page {
+  size: A3 landscape;
+}
+
+.prict-table-th.text-left
+{
+  width: auto;
+}
+.print-doctor-name-grand-total .print-discont-text
+{
+  border-bottom: none;
+}
+address {
+    margin-bottom: 10px;
+    font-style: normal;
+}
+.print-doctor-name-grand-total .print-discont-text {
+    padding-top: 15px;
+}
+.print-doctor-name-grand-total
+{
+    margin-right: -5px;
+}
+table {
+  border-collapse: collapse;
+}
+.component-header
+{
+  text-align: center;
+}
+.printer-hostital-details img, .print-receipt-details img
+{
+  vertical-align: middle;
+}
+.printer-hostital-details img, .print-receipt-detail img
+{
+  vertical-align: middle;
+}
+.print-bill-details-block p{
+  display: inline-block;
+  margin-left: 5px;
+
+}
+.print-bill-details-block h4{
+  display: inline-block;
+}
+
+@media print {
+    .print-doctor-name-grand-total {
+        background: #F2F2F2;
+    }
+   /* @page
+   {
+    size: landscape;
+    size:A5 portrait;
+  } */
+
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  width: 25%;
+  text-align: left;
+}
+
+.flex-container h5{
+  font-weight: 400 !important;
+}
+#print-border{
+  /* border: 1px solid black; */
+}
+
+
+.responsive {
+  width: 30%;
+  height: auto;
+}
+
+.printer-dynamic-change
+{
+  position: relative;
+  height: 140px;
+}
+.printer-dynamic-change .printer-hostital-logo
+{
+  position: absolute;
+  width: auto;
+  left: 0;
+}
+.printer-dynamic-change .printer-hostital-logo img
+{
+max-height: 140px;
+}
+.printer-dynamic-change .printer-hostital-details
+{
+  position: absolute;
+  width: auto;
+  right: 0;
+}
+.printer-dynamic-change .printer-hostital-logo.p-logo-right
+{
+  right: 0;
+  left: auto;
+}
+.printer-dynamic-change .printer-hostital-logo.p-logo-center
+{
+  width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+.printer-dynamic-change .printer-hostital-details.p-details-left
+{
+  right: auto;
+  left: 0;
+  text-align: left;
+}
+.printer-dynamic-change .printer-hostital-details.p-details-center
+{
+  width: 100%;
+  text-align: center;
+
+}
+.printer-dynamic-change .printer-hostital-details.p-details-center address
+{
+  max-width: unset;
+}
+.pull-left {
+  float: left!important;
+}
+.print-page-title {
+  background: #F7F7F7;
+  padding: 5px;
+  display: block;
+}
+.print-wrap table th
+{
+  background: #F7F7F7;
+}
+
+.print-display-none
+{
+   display: none !important;
+}
+.print-doctor-name-grand-total .print-discont-text {
+  border-bottom: none;
+  text-transform: uppercase;
+}
+.print-wrap{
+  width: 100%;
+  /* Commented By Rajamani -13/10/2023 */
+  /* height: 100%; */
+} 
+table{
+  width: 100%;
+}
+
+.report-header-cell {
+  background: none !important;
+  border: none!important ;
+  color: black !important;
+  font-weight: 400 !important;
+}
+.report-header-cell .add-rreduce-paymenst{
+  display: contents !important;
+  font-weight: 600 !important; 
+  cursor: pointer !important;
+}
+.report-header-cell p{
+    font-size: 14px !important;
+    color: #333333 !important;
+    line-height: 20px !important;
+}
+.print-page-title {
+  font-size: 16px !important;
+}
+tr .ng-star-inserted {
+  font-size: 13px!important;
+} 
+table.report-container{
+  page-break-after: always;
+  width: 100%;
+  }
+  table.report-header{
+  display: table-header-group;
+  }
+  table.report-footer{
+  display: table-footer-group;
+  }
+  .full-width{
+      width: 100%;
+      max-width: 100%;
+  } 
+  .footer-lab-lable {
+    font-size: 14px;
+    text-transform: none;
+    margin-left:50px;
+
+  }
+  .lab-txt-size
+  {
+    padding-top: 15px!important;
+  }
+.Print-table-packages tr:first-child td
+{
+  border-top: none;
+}
+.Print-table-packages tr:last-child td
+{
+  border-bottom: none;
+}
+.Print-table-lab p
+{
+  background: none;
+  color: black;
+}
+.Print-table-packages
+{
+  border: none;
+  background: none;
+}
+.Print-table-lab .Print-lab-groups-tr p
+{
+  top: -27px;
+  background: none;
+  color: black;
+  font-style: italic;
+  font-weight: 400;
+}
+.Print-table-lab .table th, .table td{
+  padding : 1px 0px 10px 24px!important;
+  border-bottom: 0px!important;
+  border-top:0px!important;
+  font-size: medium!important;
+  }
+  .input-error {
+    /* color: red; */
+    font-weight: bold;
+    font-size: 15px!important;
+    /*border: red 1px solid !important;*/
+  }
+  p.star-cls {
+    position: absolute;
+    top: -1px;
+    left: 105px;
+    font-size: 14px;
+  }
+  .end-star:before {
+    content: "***************";
+    position: absolute;
+    left: 20rem;
+    top: 2px;
+    font-size: 17px;
+    font-weight: bold;
+}
+  .end-star:after {
+    content: "***************";
+    position: absolute;
+    right: 20rem;
+    top: 2px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.end-star{
+  position: relative;
+}
+.no-error {
+  font-size: 15px!important;
+}
+p.star-print-cls{
+  top: 50% !important;
+}
+.pad-print-clss {
+  padding-left: 43%;
+}
+.print-wdt {
+  text-align: left !important;
+  padding-left: 10px  !important;
+}
+.op-bill-cls {
+  display: flex !important;
+  column-gap: 8%;
+}
+.op-bill-head th {
+  background: none !important;
+}
+.pay-cls{
+  width: 30%;
+}
+.amt-cls {
+  width: 34%;
+}
+.amt-value {
+  width: 70%;
+}
+
+.ehr-line .medical-history-dialog-block {
+  border-bottom: 1px solid darkgrey;
+  margin-bottom: 4px;
+}
+
+.print-row{
+  display: block !important;
+}
+.pad-td-spc td {
+  padding-left: 20px!important;
+  border-right: 1px solid #f2f2f4;
+  
+}
+.pad-td-spc th {
+  padding: 5px 3px!important;
+}
+.presc-border{
+  border-bottom: 1px solid #f2f2f4;
+  margin-top: 10px !important;
+}
+.prescription-table-dataval small{
+  border-right: 1px solid #f2f2f4;
+}
+.bar-code-row{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.headerfont{
+  font-size: 12px !important;
+} 
+
+.tablefont{
+  font-size: 9px !important;
+}
+
+.tablefontheader{
+  font-size: 9px !important;
+  text-align: center !important;
+}
+
+
+table tbody tr .tablefont{
+  font-size: 9px !important;
+  
+}
+
+.salesnetamount .headerfont .tablefontheader{
+  font-size: 9px !important;
+}
+
+.tablefont .tablefontheader .headerfont{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.serialvalue{
+  text-align: center !important;
+}
+
+.tablesales .table{
+  border-bottom: 1px solid #d3d3d3 !important;
+  padding-bottom: 8px;
+  /* border-collapse:; */
+}
+
+.tablesales td:first-child{
+  text-align: center !important;
+  padding: 0px !important;
+}
+.supplier-due-print {
+  display:flex;
+  justify-content: space-between;
+
+}
+.white-space {
+  white-space: nowrap !important;
+}
+.abstractPrint tr td{
+  font-size: 12px !important;
+}
+.ser-prt-cls th {
+  font-weight: 600 !important;
+  border-bottom: 1px solid #dee2e6 !important;
+  border-right: 1px solid #dee2e6 !important;
+  font-size: 15px;
+  
+}
+.border-none{
+  border-bottom: none;
+}
+.table{
+  white-space: break-spaces;
+}
+.pack-header{
+  display: flex;
+  gap: 20px;
+}
+.hide-data{
+  display: none;
+}
+.balance-cls{
+  font-size: 14px;
+}
+.medium-head{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.pack-cols th{
+  font-size: 12px !important;
+}
+
+.pkg-print-table{
+  white-space: nowrap !important;
+}
+
+
+.print-table-bt .tbl-border{
+  border: 1px solid #95a5a6 !important; 
+  border-collapse: collapse !important;
+}
+
+
+.specimenwidth{
+  width: 20%;
+}
+
+.testwidth{
+  width:25% !important;
+}
+
+.resultwidth{
+  width:15% !important;
+}
+
+.unitwidth{
+  width:10% !important;
+}
+
+
+.referencevalwidth{
+  width:30% !important;  
+}
+
+.specimenleft{
+  margin-left: 15px !important;
+}
+
+/* CRM sales Invoice Print  Start*/
+.sales-invoice-print{
+  display: flex !important;
+  height: 60px !important;
+  justify-content: space-between !important;
+}
+.sales-invoice-print .col-lg-4 {
+  width: 33.3% !important;
+}
+.inner-contents .col-lg-6{
+  width: 50% !important;
+}
+.table-borderless{
+ border: none !important;
+}
+.sub-footer .col-lg-8{
+  width: 80% !important;
+}
+.sub-footer .col-lg-4{
+  width: 20% !important;
+}
+.editor-box-crm{
+  border: none !important;
+  padding-left: 0px !important;
+}
+.quote-footer{
+  border: none !important;
+}
+.dt-print th{
+  font-size: 10px !important;
+  word-wrap: none;
+  word-break: keep-all;
+  word-spacing: normal;
+
+}
+.dt-print td{
+  font-size: 10px !important;
+  word-wrap: none;
+  word-spacing: normal;
+  word-break: keep-all;
+}
+.dt-print{
+  font-size: 10px !important;
+  word-wrap: none;
+  word-spacing: normal;
+  word-break: keep-all;
+}
+.pruchase-bill th {
+  font-size: 14px;
+  padding: 5px !important;
+}
+.pruchase-bill td {
+  font-size: 14px;
+  padding: 5px !important;
+}
+.ip-purchase-print .print-bill-details-block {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 4px !important;
+  align-items: center;
+}
+/* .ip-purchase-print .print-receipt-detail {
+  width: 33.3%;
+} */
+.ip-purchase-print .print-bill-details-block h3 {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.ip-purchase-print .print-bill-details-block span {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+
+.po-print .print-bill-details-block h3 {
+  font-size: 14px;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+}
+.po-print .print-bill-details-block span {
+  font-size: 14px;
+  
+}
+.po-print .print-bill-details-block {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 4px !important;
+  align-items: center;
+}
+.stock-print th,.stock-print td{
+  padding: 2px !important;
+  font-size: 14px !important;
+}
+.appoint-print table thead th{
+  text-align: left!important;
+  padding-left: 24px!important;
+}
+.billprint-top {
+  margin-top: 10px;
+}
+.print-bill-template{
+  width: 50% !important;
+}
+.pre-margin{
+  margin-top: 5px !important;
+}
+.reports-tbl th{
+  padding: 10px 5px !important;
+  font-size: 11px !important;
+  text-transform: capitalize !important;
+  text-wrap: nowrap !important;
+}
+@media print {
+  .reports-tbl td {
+      padding: 10px 5px !important;
+      font-size: 11px !important;
+      text-wrap: nowrap !important;
+  }
+}
+.doc-reports-tbl th{
+  padding: 9px 3px !important;
+  font-size: 16px !important;
+  text-transform: capitalize !important;
+}
+@media print {
+  .doc-reports-tbl td {
+      padding: 9px 3px !important;
+      font-size: 16px !important;
+  }
+}
+.doc-reports-tbl th:nth-child(5), .doc-reports-tbl td:nth-child(5){
+  width:15% !important;
+  text-wrap: wrap !important;
+}
+.doc-reports-tbl th:nth-child(7), .doc-reports-tbl th:nth-child(6), 
+.doc-reports-tbl td:nth-child(7), .doc-reports-tbl td:nth-child(6){
+  width:20% !important;
+  text-wrap: wrap !important;
+}
+.component-contents{
+  background: #ffffff;
+  padding: 15px;
+  box-shadow: 0px 0px 5px gainsboro;
+  min-height: 90vh;
+}
+
+
+.block-heading {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.block-heading1 {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.boxright {
+  position: absolute !important;
+  margin-left: 74px !important;
+}
+
+.last-visit-details {
+  padding: 1px 1px !important;
+}
+
+.list-of-vitals-inner {
+  box-shadow: 0px 0px 0px #e0dddd !important;
+  padding-top: 5px !important;
+}
+.vitals-name {
+  font-size: 10px !important;
+}
+.vitals-rate {
+  font-weight: 500 !important;
+  font-size: 12px !important;
+}
+.blue{
+  color: blue;
+}
+.status-visit-type.op {
+    width: 25px;
+    height: 25px;
+}
+.head{
+    font-size: 14px;
+    color: cornflowerblue;
+    font-weight: 500;
+}
+
+.component-contents .tab-content {
+  padding: 2px !important;
+}
+.material-symbols-outlined{
+  font-family: 'Material Icons';
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 27px;
+  /* // position: absolute;
+  // left: 7px;
+  // top: 4px; */
+}
+
+
+
+.wpanel_marquee1
+{
+  overflow: hidden;
+  white-space: nowrap;
+}
+.wpanel_marquee p {
+  animation: 700s linear 0s normal none infinite marquee;
+  display: inline-block;
+  padding: 0px 10px;
+  padding-left: 100%;
+  margin-bottom: 15px;
+}
+.wpanel_marquee span
+{
+  padding: 0px 10px;
+  display: inline-block;
+  color: #D23131;
+  font-style: italic;
+  font-weight: 500;
+}
+.wpanel_marquee p:hover {
+  animation-play-state: paused;
+}
+#tooltip {
+  position: relative;
+  display: inline;
+}
+.tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  z-index: 10;
+  align-items: center;
+  transition: opacity 0.5s ease;
+  position: absolute;
+  left: 38%;
+  top: 0;
+  white-space: nowrap;
+  word-break: unset;
+  transform: translateX(-50%);
+  background: #555555;
+  border-radius: 23px;
+  padding: 6px 18px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+#tooltip:hover .tooltip-text {
+  top: 150%;
+  visibility: visible;
+  opacity: 1;
+}
+/*new css*/
+.four-pharmasy-deah-wrap{
+  min-height: 115px;
+  display: flex;
+  gap: 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.four-pharmasy-deah.row{
+  row-gap: 13px;
+}
+.wpanel_marquee {
+  position: absolute;
+  width: 80%;
+  top: -45px;
+  right: -34px;
+}
+.ph-bills-hold-lists {
+  background: white;
+}
+.ph-bills-hold-lists li {
+  padding: 10px 8px;
+}
+.ph-bills-hold-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+}
+.ph-bills-hold-desc{
+  padding-top: 0px;
+}
+.ph-bills-hold-img img {
+  width: 48px;
+  height: 48px;
+}
+.today-appointment-sch {
+  background: white;
+}
+.counter-sales{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  margin-bottom: 0px;
+
+}
+.month-select{
+  display: flex;
+  gap: 20px;
+  padding: 9px 10px;
+  align-items: flex-start;
+}
+.four-pharmasy-deah .col-lg-4 {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+p.cash-hd {
+  color: #606060;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.6em;
+  margin-bottom: 5px;
+}
+span.sml-cls {
+  font-size: 12px;
+  color: black;
+}
+p.cash-hd-2 {
+  margin-bottom: 2px;
+  font-size: 12px;
+}
+.cas-bill {
+  display: flex;
+  position: absolute;
+  top: 71px;
+  gap: 19px;
+  left: 27px;
+}
+.cas-bill h3 {
+  font-size: 11px;
+  color: #0D0D0D;
+}
+.compoenet-inner-block .component-contents .ehr-tablists ul.tabset {
+  justify-content: space-between !important;
+}
+.compoenet-inner-block .component-contents ul.new-tab li.active a {
+  border-bottom: 3px solid #852677 !important;
+}
+.labl-clr .search-icons i {
+  bottom: 8px;
+  right: 13px;
+}
+.calenderimg {
+  right: 7px;
+  top: 31px;
+}
+.cash-payment-wrap {
+  padding: 0px;
+}
+.date-align .col-lg-6{
+  padding-left: 21px;
+  padding-right: 21px;
+}
+.scond-data {
+  background: #F4F7FA;
+  padding: 13px 0px;
+  margin-bottom: 0px;
+}
+.ph-bills-hold-right {
+  right: -17px;
+  top: 24px;
+}
+.ph-bills-hold-lists .ph-bills-hold-right img {
+  width: 23px;
+  height: 23px;
+}
+/* // .header-component-left {
+//   line-height: 3em;
+// } */
+.compoenet-inner-block .component-contents .ehr-tablists ul.tabset li.active a:focus{
+  border-bottom: 2px solid #852677!important;
+}
+.labl-clr .form-control{
+  background: white !important;
+}
+
+.compoenet-inner-block .component-contents .ehr-tablists ul.tabset li a .ng-star-inserted {
+  font-size: 16px!important;
+}
+.month-select .form-control {
+  background: white !important;
+}
+.cash-payment-wrap ul.tabset a.tab-link span {
+  font-size: 16px !important;
+}
+/* // .sales-ph {
+//   height: 152px;
+// } */
+.form-control, textarea{
+width: 100%;
+height: 100%;
+background: transparent;
+box-shadow: none;
+padding-left: 5px;
+transition: 0.6s;
+/* padding-top: 22px; */
+border: none;
+font-size: 14px;
+color: #333333;
+line-height: 14px;
+font-weight: 500;
+border-bottom: 1px solid #D2D2D2;
+border-radius: 0px;
+padding-bottom: 0;
+}
+
+.form-control.date-picker-controls {
+  font-size: 13px!important;
+  color: #333333!important;
+  line-height: 14px!important;
+  padding-left: 0px!important;
+  padding-top: 14px!important;
+  font-weight: 500!important;
+  border: none!important;
+  border-bottom: 1px solid #D2D2D2!important;
+  border-radius: 0px!important;
+  padding-bottom: 0!important;
+  background: none!important;
+}
+
+.four-pharmasy-deah .col-lg-3 {
+  padding-left: 7px;
+  padding-right: 7px;}
+
+.four-pharmasy-deah .col-lg-4 { 
+  padding-left: 7px; 
+  padding-right: 7px;}
+.four-pharmasy-deah .col-lg-8 {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+  .main-content {
+      display: flex;
+      background: white;
+      padding: 10px 15px;
+      border-bottom: 1px solid #E6E6E6;
+      justify-content: space-between;
+      align-items: center;
+      /* // min-height: 78px; */
+  }
+  .content-image {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+  }
+  .content-image {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+  }
+  .total-sales {
+      text-align: center;
+      border-bottom: 1px solid #E6E6E6;
+      padding: 13px 15px;
+      vertical-align: middle;
+  }
+  .left-col {
+      background: white;
+      box-shadow: 0px 0.3px 0.9px rgba(0, 0, 0, 0.1), 0px 1.6px 3.6px rgba(0, 0, 0, 0.13);
+  }
+  .right-col{
+      box-shadow: 0px 0.3px 0.9px rgba(0, 0, 0, 0.1), 0px 1.6px 3.6px rgba(0, 0, 0, 0.13);
+  }
+  .divide-method {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 10px;
+  }
+  .break-methods {
+      padding: 10px 15px;
+  }
+  .divide-method p {
+      margin-bottom: 0px;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 21px;
+      color: #0D0D0D;
+  }
+  .divide-method span {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: rgba(0, 0, 0, 0.6);
+  }
+  .divide-method h3 {
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 21px;
+      color: rgba(0, 0, 0, 0.9);
+  }
+  .total-sales p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      color: rgba(0, 0, 0, 0.6);
+      margin-bottom: 0px;
+  }
+  .total-sales h3 {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+      color: #3C4043;
+      margin-top: 10px;
+  }
+  .pls-img-conte {
+    width: 65px;
+    height: 75px;
+    float: left;
+    text-align: center;
+    /* // min-height: 68px;
+    // background: white;
+    // border-radius: 5px; */
+    transition: all 0.2s linear;
+    /* // border: 1px solid #a7a2a2;
+    // padding: 13px 7px; */
+  }
+  
+  .pls-img-conte img {
+      width: 29px;
+      height: 30px;
+      margin-bottom: 3px;
+  }
+  
+  .list-iconss p {
+      font-size: 13px;
+      line-height: 10px !important;
+      margin-bottom: 0px !important;
+      font-weight: 400;
+      color: black;
+  }
+  
+  .list-iconss  {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      height: 50px;
+  }
+  .material-icons-outlined{
+    font-family: 'Material Icons';
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 27px;
+  }
+  .list-iconss a:hover .pls-img-conte {
+    color: #852677;
+    /* // border: 1px solid #852677;
+    // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+.list-iconss a:hover .pls-img-conte p {
+  color: #852677;
+}
+.list-iconss a{
+  color:#222b45 !important;
+}
+.header-component-right .Stock-dropdown-list,
+.header-component-right .Sales-dropdown-list,
+.header-component-right .Purchase-dropdown-list,
+.header-component-right .Supplier-dropdown-list {
+display: none; /* Hide the dropdown list by default */
+position: absolute; /* Position the dropdown list absolutely */
+top: 84%; /* Position the dropdown list below the <a> tag */
+z-index: 1; /* Ensure the dropdown list is above other elements */
+width: 178px;
+  background: #ffffff;
+  box-shadow: 0px 0px 5px #cecece;
+}
+.header-component-right .Supplier-dropdown-list {
+right: 20px;
+}
+.list-iconss ul li {
+color: #333333;
+padding: 7px;
+display: block;
+transition: 0.4s;
+border-bottom: 1px solid #d2d2d2;
+padding: 8px 10px;
+font-size: 13px;
+}
+ul.Supplier-dropdown-list:before{
+right: 21.5px;
+content: '';
+position: absolute;
+top: -20px;
+
+border: 10px solid transparent;
+border-bottom: 10px solid #ffffff;
+}
+.list-iconss ul li:hover {
+background: #f1f1f1;
+color: #333333;
+}
+.list-iconss ul li:hover::before {
+margin-right: 16px !important;
+color: #852677 !important;
+}
+ul.common-list:before {
+content: '';
+position: absolute;
+top: -20px;
+right: 116.5px;
+border: 10px solid transparent;
+border-bottom: 10px solid #ffffff;
+}
+
+
+.header-component-right a:nth-child(2):hover .Purchase-dropdown-list {
+display: block;
+}
+.header-component-right a:nth-child(4):hover .Stock-dropdown-list {
+display: block;
+}
+.header-component-right a:nth-child(5):hover .Sales-dropdown-list {
+display: block;
+}
+.header-component-right a:nth-child(6):hover .Supplier-dropdown-list {
+display: block;
+}
+
+
+ul.common-list {
+list-style-type: none; /* Remove default list-style */
+
+}
+
+ul.common-list li::before {
+content: "\f192"; /* Unicode for right arrow icon (\f054 is the Unicode value for fa-chevron-right in Font Awesome) */
+font-family: "Font Awesome 5 Free"; /* Font family of Font Awesome icons */
+font-weight: 500; /* Font weight of Font Awesome icons */
+display: inline-block;
+width: 10px; /* Adjust size of icon */
+text-align: center;
+margin-right: 8px; /* Add some margin between icon and text */
+    vertical-align: middle;
+  font-size: 13px;
+  color: #222b45;
+  transition: all 0.2s linear;
+}
+ul.Supplier-dropdown-list li::before {
+content: "\f192"; /* Unicode for right arrow icon (\f054 is the Unicode value for fa-chevron-right in Font Awesome) */
+font-family: "Font Awesome 5 Free"; /* Font family of Font Awesome icons */
+font-weight: 500; /* Font weight of Font Awesome icons */
+display: inline-block;
+width: 10px; /* Adjust size of icon */
+text-align: center;
+margin-right: 8px; /* Add some margin between icon and text */
+    vertical-align: middle;
+  font-size: 13px;
+  color: #222b45;
+  transition: all 0.2s linear;
+}
+.doctor-dashboard .col-lg-8 {
+padding-left: 7px;
+padding-right: 1px;
+}
+.doctor-dashboard .col-lg-4 {
+padding-left: 1px;
+padding-right: 7px;
+}
+.component-header {
+padding-top: 16px;
+/* // padding-bottom: 10px; */
+margin-bottom: 0px;
+}
+ul.common-list:after {
+content: '';
+position: absolute;
+top: -18px;
+right: 3.5px;
+border: 10px solid transparent;
+border-bottom: 10px solid transparent;
+width: 100%;
+}
+ul.Supplier-dropdown-list::after {
+content: '';
+position: absolute;
+top: -18px;
+right: -13.5px;
+border: 10px solid transparent;
+border-bottom: 10px solid transparent;
+width: 100%; 
+}
+.active-Tab{
+  /* // border: 1px solid #852677;
+  // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  color: #852677 !important;
+
+  width: 65px;
+  height: 75px;
+  float: left;
+  text-align: center;
+  /* // min-height: 68px;
+  // background: white;
+  // border-radius: 5px;
+  transition: all 0.2s linear;
+  // border: 1px solid #a7a2a2;
+  // padding: 13px 7px; */
+}
+.active-Tab p{
+color: #852677 !important;
+}
+.active-Tab img {
+    width: 29px;
+    height: 30px;
+    margin-bottom: 3px;
+}
+.counter-name {
+  padding: 8px;
+  font-size: 17px !important;
+  color: #ffffff !important;
+  border: 1px solid gray;
+  text-align: center;
+  margin: 0 auto;
+  background: #772657;
+}
+.doctor-dashboard {
+  border: 1px solid #7726573d;
+}
+
+
+
+.data-col {
+  background: #FFF;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.10), 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
+  /* // height: 200px; */
+  margin-right: 10px;
+  flex: 1;
+}
+.data-col:last-child {
+  margin-right: 0; /* Remove margin from the last column */
+}
+.matrix-col{
+  border-bottom: 1px solid #EEF3F8;
+  padding: 8px;
+}
+.amount-data{
+  color: #000;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 5px;
+}
+p.bill-number {
+  margin-bottom: 5px;
+  color: #4E4E4E;
+  font-size: 14px !important;
+}
+.payment-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #EEF3F8;
+  background: #FFF;
+  padding: 5px 6px;
+  margin: 5px;
+}
+.payment-option h3{
+  margin-bottom: 0px;
+}
+.payment-option p{
+  margin-bottom: 0px;
+  border-radius: 4px;
+background: #D5E9FF;
+padding: 4px;
+color: #0177FF;
+    font-size: 12px;
+
+}
+
+/*thermal print*/
+.thermal-print h3{
+  font-size: 0.9em !important;
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+
+.thermal-print p{
+  font-size: 0.7em !important;
+  color: #000 !important;
+  font-weight: 400 !important;
+  margin-bottom: 5px !important;
+
+}
+.thermal-print3inch{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+  width: 78mm !important;
+  padding: 10px !important;
+}
+.thermal-print4inch{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+  width: 110mm !important;
+  padding: 10px !important;
+}
+
+.thermal-print{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+  width: 78mm !important;
+  padding: 10px !important;
+}
+
+.themal-tbl th{
+  font-size: 0.6em !important;
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+.themal-tbl td{
+  line-height: 1.4em !important;
+  font-size: 0.6em !important;
+  font-weight: 400 !important;
+  color: #000 !important;
+}
+.product{
+  width: 120px !important;
+}
+.bill-sum p{
+  font-weight: 600 !important;
+}
+.print-sales-header h3 {
+  text-transform: uppercase !important;
+}
+.print-sales-header{
+  padding: 10px !important;
+}
+.sales-header{
+  border-top: 0.5px solid #444 !important;
+  border-bottom: 0.5px solid #444 !important;
+  padding: 3px !important;
+  margin-bottom: 5px;
+
+}
+.sales-header h3 {
+  text-transform: uppercase !important;
+  text-align: center !important;
+  margin: 0 !important;
+}
+.sales-details{
+  padding: 10px 0px !important;
+}
+.labl-align{
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.labl-align p:first-child {
+  min-width: 65px !important;
+}
+.bill-sum .labl-align {
+  justify-content: space-between !important;
+}
+.status-col h3 {
+  text-align: center !important;
+  margin: 0 !important;
+  color: white !important;
+  background: #666666 !important;
+  padding: 5px !important;
+  margin-bottom: 8px !important;
+  font-weight: 500 !important;
+}
+.print-receipt-detail p {
+  font-size: 16px !important;
+}
+
+  /* .barcode{
+    text-align: left !important;
+    margin-top: 0 !important;
+  } */
+  /*Commented By rajamani */
+.report-content{
+  padding: 10px !important;
+}
+
+.thermal-padding{
+  padding: 10px !important;
+}
+
+.opbill-thermal-print tr .ng-star-inserted {
+  font-size: 7px!important;
+}
+.lab-print-receipt-detail{
+  width: 50% !important;
+  float: unset;
+}
+.table-footer{
+  background-color: #F2F2F2;
+}
+
+.table-footer td{
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  padding-top: 9px !important;
+}
+/* Obstetrics  */
+#selectrow td {
+  vertical-align: baseline !important;
+}
+/* Obstetrics  */
+
+/*presc-template*/
+.main-contents{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background: white;
+  position: relative !important;
+
+}
+.image-circles{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 200px;
+  border-radius: 100px;
+  height: 200px;
+}
+.image-circles img{
+  width: 200px;
+  border-radius: 100px;
+  height: 200px;
+  object-fit: cover;
+  padding: 5px;
+}
+.hoppital-name {
+  color: orange !important;
+  line-height: 1.6em;
+  margin: 5px 0px;
+  text-align: center;
+  font-size: 26px !important;
+  position : relative;
+}
+.doc-container h2 {
+  font-size: 18px !important;
+  margin-bottom: 6px;
+}
+.doc-container span {
+  font-size: 18px;
+}
+.doc-container h3 {
+  font-size: 18px;
+  margin-top: 7px;
+}
+.doc-container p {
+  margin-bottom: 5px;
+  font-size: 13px !important;
+}
+.head-content{
+  align-items: center;
+}
+.addr-detail {
+  font-size: 18px !important;
+  margin-bottom: 0px;
+  padding: 6px 0px;
+  text-align: center;
+  margin-top: 10px;
+  background: #81ecec70;
+}
+.from-update input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.from-update {
+  padding: 15px;
+  border-bottom: 1px solid #00cec9;
+}
+.name-update {
+  width: 450px;
+}
+.add-feiled {
+  width: 502px;
+}
+.from-update > div {
+  margin-bottom: 7px;
+}
+.list-col h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 5px 6px;
+  color: white;
+  background: linear-gradient(.25turn, #40739e, 10%, #273c759c);
+}
+.service-items li {
+  margin-left: 20px;
+  border-bottom: 1px solid #00a8ff;
+  font-size: 21px !important;
+  padding: 15px 0px !important;
+  font-weight: 600;
+}
+
+.list-content .col-lg-4 {
+  border-right: 1px solid #00a8ff;
+}
+.time-col li {
+  font-size: 15px;
+  padding: 5px 0px;
+  font-weight: 600;
+  display: inline;
+  list-style: circle !important;
+  position: relative;
+  margin-right: 20px;
+}
+.time-col li:before {
+  list-style-type: none;
+  content: '\2022';
+  font-size: x-large;
+  color: #f9ca24;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.service-items li:before {
+  list-style-type: none;
+  content: '\2022';
+  font-size: xx-large;
+  color: #f9ca24;
+  margin-right: 10px;
+  vertical-align: middle;
+  position: absolute;
+  left: 17px;
+}
+.time-col {
+  margin-top: 13px;
+  text-align: center;
+  border-top: 1px solid #00a8ff;
+  padding: 5px;
+}
+.moving-col {
+  border: none !important;
+  position: absolute;
+  bottom: 80px !important;
+  text-align: right;
+  right: 70px;
+  
+}
+
+.small-logos {
+  width: 80px;
+  height: 92px;
+  position: absolute;
+  right: 430px !important;
+  top: 50px;
+}
+.head-content{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+.doc-container{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.head-content .col-lg-4{
+  width: 30% !important;
+}
+.head-content .col-lg-8{
+  width: 70% !important;
+}
+.doc-container .col-lg-6{
+  width: 50% !important;
+}
+.list-content .col-lg-4{
+  width: 30% !important;
+  position: fixed !important;
+  left:0 !important;
+  
+}
+.list-content .col-lg-8{
+  width: 70% !important;
+  position: absolute;
+  right: 0;
+
+
+}
+.from-update{
+  width: 100% !important;
+}
+
+
+.prescriptionHeader {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  
+}
+.list-content{
+  position: relative !important;
+  top: 370px !important; /* Set the content's top position after the header */
+  height: auto;
+  
+  width: 100%; /* Set the content's width to span the entire page */
+  
+}
+
+
+
+.time-col {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} 
+
+
+.print-underline{
+  border-bottom: 0.5px solid black !important;
+  width: 600px !important;
+  display: inline;
+}
+.line-row{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.age-line{
+  border-bottom: 0.5px solid black !important;
+  width: 400px !important;
+  display: inline;
+}
+
+.predate-line{
+  border-bottom: 0.5px solid black !important;
+  width: 300px !important;
+  display: inline;
+}
+
+.address-line{
+  border-bottom: 0.5px solid black !important;
+  width: 500px !important;
+  display: inline; 
+}
+
+.ipDetail td{
+  padding: 1px 0px !important;
+}
+.ipDetail thead th{
+ font-size: 13px !important;
+}
+.ph-return td{
+    padding: 1px 4px !important;
+    font-size: 13px !important;
+  }
+.ph-return th{
+    padding: 3px 4px !important;
+    font-size: 13px !important;
+}
+/*patient IP header*/
+.print-patient-ip{
+  display: flex !important;
+  width: 100% !important;
+}
+.print-patient-ip .col-lg-2 {
+  flex: 0 0 16.66666667%;
+  max-width: 16.66666667%;
+}
+
+
+/* sales thermal 4inch start */
+
+.sales-thermal-print h3{
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #000;
+  font-family: 'Tinos', serif !important;
+}
+
+.sales-thermal-print p{
+  font-size: 0.7em;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-family: 'Tinos', serif !important;
+
+}
+
+.sales-thermal-tbl th{
+  font-size: 1.0em;
+  font-weight: 600;
+  color: #000;
+  font-family: 'Tinos', serif !important;
+}
+.sales-thermal-tbl td{
+  line-height: 1.4em;
+  font-size: 1.0em;
+  font-weight: 400;
+  word-break: break-all;
+  color: #000;
+  font-family: 'Tinos', serif !important;
+}
+.product{
+  width: 120px;
+}
+.bill-sum p{
+  font-weight: 600;
+  font-family: 'Tinos', serif !important;
+}
+.print-sales-thermal-header h3 {
+  text-transform: uppercase;
+  font-family: 'Tinos', serif !important;
+}
+.print-sales-thermal-header{
+  padding: 10px;
+  text-align: center;
+
+}
+.sales-thermal-header{
+
+  padding: 3px;
+  margin-top: 5px !important;
+
+}
+.sales-thermal-header h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  font-family: 'Tinos', serif !important;
+}
+.sales-thermal-details{
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.labl-align{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.labl-align p:first-child {
+  min-width: 65px;
+}
+.bill-sum .labl-align {
+  justify-content: space-between;
+}
+
+.thermal-print4inch p{
+  font-size: 1.0em !important;
+}
+.status-col h3 {
+  text-align: center;
+  margin: 0;
+  color: white !important;
+  background: #666666 !important;
+  padding: 5px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-family: 'Tinos', serif !important;
+}
+/* .barcode{
+  text-align: center;
+  margin-top: 10px;
+} */
+.print-sales-thermal-header p{
+    margin-bottom: 5px !important;
+}
+.dotted-line{
+    border-bottom: 1px dotted #0e0d0d;
+}
+.sales-thermal-details P{
+    margin-bottom: 4px !important;
+}
+.right-sales-thermal {
+    width: 50%;
+    text-align: right;
+}
+.left-sales-thermal {
+    width: 50%;
+    text-align: left;
+}
+.right-tot p {
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+}
+.signature-para{
+    margin-top: 25px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Tinos:ital,wght@0,400;0,700;1,400&display=swap');
+
+.thermal-print4inch {
+    font-family: 'Tinos', serif !important;
+}
+.thermal-print4inch p{
+  font-size: 1.0em !important;
+}
+
+.right-tot p strong:nth-child(2) {
+  min-width: 70px;
+}
+
+ /* end sales thermal 4inch */
+
+ .barcode-align{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ 
+ 
+ .dualSignAlign::after{
+  height: 140px;
+  content: '';
+  display: table;
+  clear: both;
+ }
+
+
+ .signfloatright {
+  max-width: 150px;
+  float:right;
+ }
+
+ .signfloatleft {
+  max-width: 150px;
+  float: left;
+ }
+ 
+ 
+ 
+ 
+ 
+ /* Clinical assessment -MAGESHWARAN */
+.appt-payerlist td p{
+  margin-bottom: 4px !important;
+}
+.drag-container {
+  border: 1px solid #E6E6E6;
+  background: #F8F8F8;
+  padding: 10px;
+}
+.drag-box{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 0px;
+}
+.subfield-dragger .form-control,.subfield-dragger .form-control-select {
+  width: 250px;
+}
+.subfield-dragger {
+  margin-left: 23px;
+}
+.vio-btns a {
+  font-size: 14px;
+  color: #852677;
+  margin-right: 10px;
+}
+.align-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.material-symbols-outlined {
+  font-family: 'Material Icons';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 50%;
+  }
+  .add-close .material-symbols-outlined {
+      width: 18px;
+      height: 18px;
+  }
+  .add-close {
+      display: flex;
+      gap: 10px;
+  }
+  .remove-icons {
+      color: #E94442;
+      border: 1px solid #E94442;
+  }
+  .add-icons {
+      color: #52BEA5;
+      border: 1px solid #52BEA5;
+
+  }
+
+  .clinical-btn a {
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 0px 1.6px 3.6px 0px rgba(0, 0, 0, 0.13), 0px 0.3px 0.9px 0px rgba(0, 0, 0, 0.10);
+    margin-right: 10px;
+    padding: 8px 5px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    color: #222;
+    font-weight: 500;
+}
+.header-buttons {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.selection-body {
+    padding: 10px 12px;
+    border: 1px solid #E6E6E6;
+    background: white;
+    width: 100%;
+}
+.selection-box  {
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    margin-top: 15px;
+}
+.compoenent-inner-block{
+    padding: 10px;
+}
+h3.samll-title {
+    font-size: 15px;
+}
+.selection-checkbox .form-check {
+    margin-bottom: 10px;
+}
+.selection-checkbox label {
+    color: #374151;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.head-container {
+    background: white;
+    padding: 8px 12px;
+    border-bottom: 1px solid #E6E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.selction-title{
+    color: #852677;
+    font-size: 16px;
+    margin: 0;
+}
+.btn-white {
+    border-radius: 3px;
+    border: 1px solid #852677;
+    background: #FFF;
+    color: #852677;
+    width: 95px;
+    padding: 5px 15px;
+}
+
+.btn-voilet {
+    border-radius: 3px;
+    border: 1px solid #852677;
+    background: #852677;
+    color: #FFF;
+    width: 95px;
+    padding: 5px 15px;
+}
+.flex-set{
+    display: flex;
+    align-items: center;
+}
+.clinical-btn img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/*****/
+.head-container a {
+    color: #852677 !important;
+    font-weight: 500;
+}
+.samll-title img {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.added-section{
+    width: 100%;
+    border: 1px solid #E6E6E6;
+    background: #F8F8F8;
+    padding: 10px;
+}
+
+
+.radio-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-label{
+  font-weight: 600 !important;
+}
+.min-height .form-control, .min-height .textarea{
+  height: 30px!important;
+  padding-top: 0px;
+}
+
+.subcat-list .labl-clr.verticls {
+  display: inline-block;
+}
+.subcat-list {
+  border-radius: 8px;
+  border: 1px solid #E6E6E6;
+  background: #F0F2F2;
+  margin-left: 35px;
+  padding: 10px 0px;
+  max-width: 96%;
+}
+
+.subcat-edit{
+  display: flex;
+  position: relative;
+  float: right;
+  margin-right: 5px;
+  
+}
+
+
+.textarea-labl-clr .form-control {
+  border: 1px solid #d0d0d0;
+  border-radius: 2px;
+  padding: 5px 10px;
+  height: 50px;
+  margin-top: 0;
+}
+
+
+/* Clinical assessment -MAGESHWARAN */
+
+.ip-thermal > div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ip-thermal p:first-child{
+  min-width: 225px;
+}
+
+/* .sales-print-style .print-page-title {
+  border-bottom: 1px solid darkgrey !important;
+  border-top: 1px solid darkgrey !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.sales-print-style .report-header {
+  border: 1px solid darkgrey !important;
+  padding: 5px;
+}
+.sales-print-style table th {
+  border: 1px solid gray;
+} */
+
+.sales-print-style{
+  margin-top: 5px !important;
+}
+.sales-print-style table thead th{
+  font-weight: 500 !important;
+}
+.sales-print-style table thead,
+.sales-print-style table thead th,
+.editor-box  table tbody td{
+  border: 1px solid darkgrey !important;
+  padding-right: 3px!important;
+}
+.sales-prints .row{
+  margin: 0 !important;
+}
+.green-bg table thead th{
+  background: #c2d69b !important;
+}
+.blue-bg table thead th{
+  background: #81ecec !important;
+}
+.green-bg2 table thead th{
+  background: #55efc4 !important;
+}
+.yellow-bg table thead th{
+  background: #eccc68 !important;
+}
+.red-bg table thead th{
+  background: #ff6b81 !important;
+}
+.voilot-bg table thead th{
+  background: #833471 !important;
+}
+.orange-bg table thead th{
+  background: #FEA47F !important;
+}
+.rose-bg table thead th{
+  background: #f78fb3 !important;
+}
+.grey-bg table thead th{
+  background: #d1d8e0 !important;
+}
+
+/*footer-color*/
+.orange-bg-amt tr td{
+  background: #fbd4b4 !important;
+}
+
+
+
+.sales-print-style .printer-hostital-logo{
+  left: 5px;
+  top: 5px;
+}
+
+.sales-print-style .printer-hostital-details {
+  right: 5px;
+  top: 5px;
+}
+.sales-prints .print-doctor-name-grand-total {
+  border-left: 1px solid darkgrey !important;
+  border-right: 1px solid darkgrey !important;
+  margin: 0 !important;
+
+}
+.print-head th{
+  background: #F7F7F7 !important;
+}
+.print-head th,.print-head td{
+  font-size: 10px !important;
+  padding: 4px 3px !important;
+
+}
+.bg-main td{
+  background: #EAEEF3 !important;
+  font-weight: 600 !important;
+  border-right: none !important;
+}
+.patient-name,
+.printadd{
+  text-transform: capitalize!important;
+}
+.add-rreduce-paymenst {
+  font-size: 12px!important;
+}
+
+/* printcss-caretaker */
+
+.details-col {
+  display: flex;
+  gap: 44px;
+  align-items: center;
+}
+p.th-value {
+  font-weight: 500;
+  width: 103px;
+}
+.details-col p {
+  margin-bottom: 7px;
+}
+.sign-out{
+  font-size: 16px;
+  color: #464646;
+  margin-top: 5px;
+}
+.header-caretaker {
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  padding: 13px 0px;
+  display: flex;
+}
+.head-visit{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+/* .head-visit h4{
+  text-align: right;
+} */
+.header-caretaker .col-lg-6{
+  width: 50% !important;
+}
+
+.inner-template h3 {
+  font-size: 18px;
+}
+.qualify {
+  font-size: 12px;
+  color: #000000;
+  font-weight: 500;
+}
+.inner-template p {
+  margin-bottom: 8px;
+}
+.doc-detail-presc h3 {
+  color: #DF604B !important;
+}
+
+.header-template {
+  border-bottom: 1px solid #000000;
+}
+.precribe-detail label {
+  color: #df604b !important;
+  font-weight: 500;
+}
+.precribe-detail {
+  padding: 10px 0px;
+}
+.precribe-detail {
+  padding: 10px 0px;
+}
+.foot-presc-head {
+  color: #df604b !important;
+  font-weight: 600;
+  font-size: 14px;
+}
+.adress-presc p {
+  font-size: 10px;
+  line-height: 1.6em !important;
+  font-weight: 500;
+}
+.time-range {
+  border-bottom: 1px solid #000;
+  padding-bottom: 6px;
+  font-size: 13px !important;
+  font-weight: 500;
+}
+.precribe-detail {
+  padding: 10px 0px;
+  /* height: 400px; */
+}
+.adress-presc i{
+  color: #df604b !important;
+  margin-right: 3px;
+}
+.footer-container-prescribe{
+  text-align: center;
+}
+
+.inner-template{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background: white;
+  position: relative;
+  /* page-break-after: always !important; */
+}
+.presc-main {
+  position: fixed !important;
+  top: 10;
+  width: 100%;
+}
+.presc-body {
+    position: relative !important;
+    top: 195px !important;
+    height: auto;
+    width: 100%;
+}
+.footer-container-prescribe {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.print-table-part tbody td{
+  text-transform: capitalize!important;
+}
+.report-print td{
+  text-align: left;
+  padding-left: 10px!important;
+}
+.report-print td.txt-right,
+.report-print td.text-right{
+text-align: right!important;
+padding-right: 10px!important;
+}
+.presc-main .row {
+  display: flex !important;
+  justify-content: space-between !important;
+   
+  }
+  .header-template .col-md-6{
+    width: 50%;
+  }
+  .precribe-detail .col-md-6{
+    width: 50%;
+  }
+  .precribe-detail .col-md-3{
+    width: 25%;
+  }
+
+
+  .shift-cls{
+    color: #852677;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+
+/*  --------- Casesheet ------------*/
+.summary-dialog-box .tab-block-conetnts {
+  margin-bottom: 10px!important;
+  /* padding-bottom: 10px; */
+  border-bottom: 1px solid #bebdbd!important;
+}
+.casesheet_multi p{
+  margin-bottom: 2px;
+ }
+ .casesheet_multi{
+  display: block !important;
+  line-height: 1.35 !important;
+  padding-top: 3px !important;
+  margin-bottom: 1px;
+ }
+ .ehr-line .close-tag{
+  float: right!important;
+  color: #222!important;
+}
+.prescription-table-dataval b{
+  font-size: 17px!important;
+}
+.medical-history-dialog-block li p {
+  word-break: break-word !important;
+  overflow-wrap: break-word;
+  line-height: 1.35 !important;
+}
+.note_list .payer-info-big label{
+  margin-bottom: 3px!important;
+}
+.note_list .payer-info-big li{
+  margin-bottom: 1px!important;
+}
+.vital_list p span{
+  line-height: 1.7!important;
+}
+.closing_print .table th,
+  .closing_print .table td{
+  padding-left: 1px!important;
+  font-size: 13px!important;
+}
+.work-order-list li{
+  width: 24.3%;
+  float: left;
+}
+.work-order-list li label{
+  font-weight: 500 !important;
+}
+.work-order-list {
+  border-top: 1px solid #dee2e6 !important;
+  padding: 10px !important;
+}
+
+.work-order-table tr th{
+  border-bottom: 1px solid #dee2e6 !important;
+  border-right: 1px solid #dee2e6 !important;
+}
+
+/*+++++bed-transfer++++++++++*/
+.bed-transfer{
+  padding: 5px 5px 0!important;
+  border: 1px solid #ddd;
+}
+.bed-transfer .card-header,.bed-transfer .flex{
+  background-color: #fff;
+  -webkit-box-align: flex !important;
+  -webkit-align-items: flex !important;
+  -ms-flex-align: flex !important;
+  display: flex!important;
+  -webkit-box-align: center !important;
+  -webkit-align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  -webkit-box-pack: justify !important;
+  -webkit-justify-content: space-between !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+  gap: 2rem;
+}
+.bed-transfer .card-header h3{
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.bed-transfer .card-header h4{
+  font-size: 13px;
+  margin-bottom: 0!important;
+  font-weight: 500;
+}
+.bed-transfer .card-header p{
+  margin-bottom: 5px!important;
+ 
+}
+.bed-transfer .table th,
+.bed-transfer .table td{
+  border: 1px solid #ddd!important;
+  padding-left: 5px!important;
+  text-align: left!important;
+  font-size: 13px!important;
+}

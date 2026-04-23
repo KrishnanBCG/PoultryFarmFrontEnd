@@ -1,0 +1,445 @@
+/*  List page search css starts  */
+
+body{
+  font-family: 'Roboto', sans-serif!important;
+  font-size: 14px;
+  color: #333333;
+}
+/* Header title-design  */
+.search-block-list .component-header {
+  font-size: 20px!important;
+  margin-bottom: 10px!important;
+  line-height: 25px!important;
+  font-weight: 500!important;
+  background-color: transparent!important;
+}
+/* Header title-design  */
+.search-block-list .header-component-left span {
+  display: inline-block!important;
+  vertical-align: middle!important;
+  margin-left: 5px!important;
+}
+/* Header title-design color */
+.search-block-list .btn-blue {
+  background: #3398DA!important;
+  color: #ffffff!important;
+  padding: 6px 18px!important;
+}
+/* anchor tag removed underline */
+.search-block-list a{
+  text-decoration: none!important;
+}
+/* Header - right part- button and icon   */
+.search-block-list .header-component-right{
+  display: flex!important;
+  justify-content: end;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+/* Export and print icon size and alignment */
+.search-block-list .header-component-right .export-align{
+  cursor: pointer !important;
+  color: #852677 !important;
+  height: 30px !important;
+  width: 30px !important;
+  background-color: transparent!important; 
+}
+/* Export and print icon hover color */
+.search-block-list .header-component-right .export-align:hover {
+  background: rgba(133, 38, 119, 4%)!important;
+}
+/* search field background color */
+.search-block-list .search-block-wrap{
+  background: #F5F1F4!important;
+}
+.search-block-list .bg-white{
+  background-color: #fff!important;
+}
+/* Search input box padding left, right and bottom */
+.search-block-list .col-lg-2,
+.search-block-list .col-md-2,
+.search-block-list .col-lg-3,
+.search-block-list .col-md-3,
+.search-block-list .col-lg-4,
+.search-block-list .col-md-4,
+.search-block-list .col-lg-6{  
+  padding-right: 10px!important;
+  padding-left: 10px!important;
+  padding-bottom: 10px!important;
+  }   
+  /* Search - calendar-icon right position  */ 
+  .search-block-list .calenderimg {
+    position: absolute;
+    width: 18px!important;
+    top: 33px!important;
+    right: 5px!important;
+  }
+  .search-block-list .removed-padding{
+    padding: 0!important;
+  }
+  
+  /* .search-block-list .trigger .calenderimg{
+    top:28px!important
+  } */
+   /* Search label design  */
+  .search-block-list .form-group label,
+  .search-block-list .labl-clr label   {
+    font-size: 14px!important;
+    color: #2C3E50 !important;
+    font-weight: 500!important; 
+    margin-bottom: 5px!important;
+    opacity: 0.9!important;
+}
+  /* Search button design  */
+  .search-block-list .btn-search,
+  .search-block-list .btn-show-more,
+  .search-block-list .btn-reset{   
+    border-radius: 30px!important;
+    padding: 3px 18px!important;
+    font-size: 14px!important;
+   font-weight: 400!important;
+  }
+  .search-block-list .btn-search{
+    background: #852677!important;
+    color: #fff!important;
+    border: 1px solid #852677!important;
+  }
+  .search-block-list .btn-show-more{
+    color: #852677!important;
+    border: 1px solid #852677!important;
+  }
+    /* Reset button   */
+  .search-block-list .btn-reset{
+    color: #969393!important;   
+    background: transparent!important;
+  }
+  /* Search icon right position  */
+  .search-block-list .search-icons i {
+    position: absolute;
+    right: 7px!important;    
+    bottom: 9px!important;
+    color: #852677!important;
+    font-size: 14px;
+    padding-left: 0px;
+}
+/* Select button close icon */
+.ngx-select__clear-icon {
+  color: #464646;
+  width: 12px!important;
+  height: 12px!important;
+}
+/* Search button bottom align   */
+.search-block-list .btn-block{
+  align-self: end;
+}
+
+/* default btn   */
+.search-block-list .btn {
+  font-size: 14px!important; 
+  font-weight: 500!important;
+  line-height: 1.5!important;
+  transition: 0.2s!important;
+  cursor: pointer!important;
+  margin-right: 5px!important;
+}
+/* select toggle */
+.search-block-list .ngx-select__toggle {
+  outline: 0;
+  position: relative!important;
+  text-align: left!important;
+  color: #333!important;
+  background-color: #fff!important;
+  border-color: #ccc!important;
+  display: inline-flex!important;
+  align-items: stretch!important;
+  justify-content: space-between!important;
+}
+/* input field design */
+.search-block-list .verticls .form-control {
+  border: 1px solid #d0d0d0 !important;
+  border-radius: 2px !important;
+  padding: 5px 10px !important;
+  height: 34px !important;
+  margin-top: 0;
+  background: white !important;
+}
+/* input field hover  */
+.search-block-list input.form-control:hover ,
+/* .search-block-list .form-control-select:hover, */
+.search-block-list .form-control-select .form-control:hover  {
+  border: 1px solid #852677!important;
+  background-color: #fff!important;
+}
+/* Select input text color,fontsize */
+.search-block-list .ngx-select__toggle span {
+  font-size: 14px;
+  color: #333333!important;
+}
+/* Select input background and border*/
+.search-block-list .verticls .ngx-select__toggle ,
+.search-block-list .form-group .ng-valid .ngx-select__toggle {
+  background: #fff !important;
+  border-color: #d0d0d0 !important;
+}
+.search-block-list .ng-star-inserted {
+  font-size: 14px!important;
+}
+.search-block-list .exporting {
+padding: 5px 15px!important;
+text-align: center !important;
+}
+.search-block-list .indent-left-col .tab-content {
+  padding: 0!important;
+}
+/* Multi selection */
+.search-block-list .ngx-select_multiple .ngx-select__search,
+.search-block-list .ngx-select_multiple:hover .ngx-select__search,
+.search-block-list .ngx-select_multiple .ngx-select__search:hover {
+  background-color: transparent!important;
+  border: none!important;
+  outline: 0!important;
+  padding: 0px 0px !important;
+  height: 21px!important;
+}
+
+/*-------Table style----------*/
+/*Table Background Color*/
+.table-style {
+  background: white;
+  border-top: 1px solid #dee2e6;
+}
+/*Table header style*/
+.table-style th {
+  vertical-align: middle !important;
+  font-weight: 500 !important;
+  padding: 5px !important;
+  background: #f2f2f2 !important;
+  border: none!important;
+  color: #852677 !important;
+  font-size: 14px!important;
+}
+/*Table header style*/
+.table-style td {
+  vertical-align: middle !important;
+  padding: 5px !important;
+  color: #212529;
+  font-size: 14px!important;
+  border-top: 1px solid #dee2e6 !important;
+  line-height: 1.7;
+}
+/*status button*/
+.table-style td.status.active span,.table-style td.status.not-active span,
+.table-style .status.active span,.table-style .status.not-active span{
+  border-radius: 5px !important;
+  font-weight: 500 !important;
+  width: 48% !important;
+  padding: 3px 10px !important;
+  text-transform: uppercase !important;
+  font-size: 12px !important;
+  min-width: 85px !important;
+}
+/*Active status button*/
+.table-style td.status.active span,
+.table-style .status.active span{
+  color: #42B11B !important;
+}
+
+/*Inactive status button*/
+.table-style td.status.not-active span ,
+  .table-style .status.not-active span {
+  color: #ffaa00 !important;
+}
+/*1st column only padding*/
+.table-style th:first-child,.table-style td:first-child {
+  padding-left: 12px !important;
+}
+/*last column only padding*/
+.table-style th:last-child,.table-style td:last-child  {
+  padding-right: 15px !important;
+}
+/*text align*/
+.text-left{
+  text-align: left !important;
+}
+.text-right{
+  text-align: right !important;
+}
+.text-center{
+  text-align: center !important;
+}
+/*Table row style*/
+.table-style tbody tr {
+  background: white !important; /*Bg color of the row*/
+  border-bottom: 1px solid #dee2e6 !important /*border bottom for row*/
+}
+/* Row hover style*/
+.table-hover tbody tr:hover {
+  background-color: #f9f9f9 !important;
+}
+/*pagination style*/
+.pagination-style .pagi-block .ngx-pagination .current {
+  background: #852677 !important;
+  border-radius: 50px !important;
+}
+.pagi-block .ngx-pagination li {
+  margin: 0px 5px !important;
+}
+.search-block-list .price-amt{
+  text-align: right!important;
+}
+.space-container{
+  height: 100px;
+  max-width: 100%;
+  overflow: auto;
+}
+.table-noborder .form-group .ngx-select__toggle{
+  padding: 0 3px!important;
+  border-bottom: 0!important;
+}
+ 
+.table-noborder .form-control-select:hover .form-control ,
+.table-noborder .form-control-select .form-control:hover ,
+.table-noborder .form-control:hover{
+  background-color: transparent !important;
+  border: 1px solid #852677 !important;
+  border-radius:3px!important;
+}
+.line-break{
+  text-align: left !important;
+  line-break: normal !important;
+  white-space: pre-wrap!important;
+}
+ .table-style tbody tr.total_bg,.table-style td.total_bg,
+ .table-style th.total_bg{
+  background-color: #EAEEF3 !important;
+}
+.table-style tr.bg_yellow{
+  background-color: #FEF8EA !important;
+}
+.table-style .total_bg td{
+ font-weight: 500!important;
+}
+.table-style tbody tr .total{
+  font-size: 17px !important;
+  line-height: 1.2 !important;
+}
+/* width */
+.multi-option::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+.multi-option::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+ 
+}
+ 
+/* Handle */
+.multi-option::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.multi-option::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.edit-lab-work tr .ng-star-inserted {
+  font-size: 14px !important;
+  font-weight: 400!important;
+}
+.edit-lab-work tr .btn{
+  padding-top: 0!important;
+}
+.labl-clr label {
+  color: #2C3E50 !important;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+  opacity: 0.98;
+}
+.search-block-list .readonly_cls,
+.search-block-list .ngx-select__disabled {
+  background-color: #F5F5F5 !important;
+  border-color: #F5F5F5 !important; 
+}
+.search-block-list .ngx-select__disabled {
+  opacity: 0.5 !important;
+}
+/*Batch border radius*/
+.remove-component .status-warning,
+.remove-component .status-info,
+.remove-component .status-success{
+ width: auto !important;
+ padding: 3px 4px!important;
+ height: 23px!important;
+ line-height: 1.2!important;
+}
+.search-block-list .header-component-left{
+  font-size: 22px !important;
+}
+.example-container .mat-column-gender .mat-sort-header-container,
+.example-container .mat-column-advanceAmount .mat-sort-header-container,
+.example-container .mat-column-action .mat-sort-header-container,
+.example-container .mat-column-billNumber .mat-sort-header-container,
+.example-container .mat-column-advanceAmount .mat-sort-header-container,
+.example-container .mat-column-discount .mat-sort-header-container,
+.example-container .mat-column-netAmount .mat-sort-header-container,
+.example-container .mat-column-refundAmt .mat-sort-header-container,
+  .example-container .mat-column-billAmount .mat-sort-header-container{
+  justify-content: center!important;
+}
+.example-container .mat-sort-header-container {
+  flex-direction: row !important;
+}
+.ngx-select__item_no-found button.add-btn-icon,
+.add-btn-icon{
+  background-color: #F0F0F0 !important;
+  border: 1px solid #f0f0f0 !important;
+  color: #222 !important;
+  display: flex !important;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 10px !important;
+  margin: 20px auto 1px!important;
+  text-transform: capitalize!important;
+}
+.ngx-select__item_no-found button.add-btn-icon span,
+.add-btn-icon span{
+  font-size: 18px!important;
+}
+/*Gender*/
+.search-block-list .table .ng-star-inserted .fa-male,
+.search-block-list .table .ng-star-inserted .fa-female,
+ .fold-table .table .ng-star-inserted .fa-female,
+ .fold-table .table .ng-star-inserted .fa-male{
+  font-size: 16px!important;
+  /* font-weight: 700!important; */
+}
+
+.search-block-list .table .ng-star-inserted .fa-female,
+ .fold-table .table .ng-star-inserted .fa-female{
+  color: #e91772!important;
+}
+.search-block-list .table .ng-star-inserted .fa-male,
+ .fold-table .table .ng-star-inserted .fa-male{
+  color: #2ca9e3!important;
+}
+.notes_list textarea.form-control {
+  height: 60px !important;
+}
+.notes_list_ehr{
+  height: 60px !important;
+}
+table.nurse-list p{
+  overflow-wrap: anywhere;
+}
+.btn_casereset{
+  padding: 5px!important;
+  border: 1px solid!important;
+}
+
+.verticls .radiology-dropdown .form-control{
+  height: 100% !important;
+  min-height: 20px;
+}

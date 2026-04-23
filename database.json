@@ -1,0 +1,507 @@
+{
+  "userDetails": [
+    {
+      "companyName": "BCG Chicken Poultry",
+      "userName": "Gopikrishnan Balasubramanian",
+      "email": "Admin@scandexbd.com",
+      "password": "Krishnan_248",
+      "firstName": "Gopi",
+      "lastName": "Krishnan",
+      "address": "Dharapuram",
+      "city": "Dharapuram",
+      "country": "India",
+      "postalcode": "638672",
+      "abortme": "",
+      "id": 1
+    },
+    {
+      "companyName": "BCG Chicken Poultry",
+      "userName": "krishnan",
+      "email": "gopibalu5555@gmail.com",
+      "password": "Krishnan_248",
+      "firstName": "",
+      "lastName": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "postalcode": "",
+      "abortme": "",
+      "id": 2
+    },
+    {
+      "companyName": "Poultry",
+      "userName": "krishnan_248",
+      "email": "gopibalu248@gmail.com",
+      "password": "Krishnan_248",
+      "firstName": "",
+      "lastName": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "postalcode": "",
+      "abortme": "",
+      "id": 3
+    },
+    {
+      "companyName": "BCG Chicken Poultry",
+      "userName": "1234",
+      "email": "1234",
+      "password": "1234",
+      "firstName": "",
+      "lastName": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "postalcode": "",
+      "abortme": "",
+      "id": 4
+    }
+  ],
+  "UnitMaster": [
+    {
+      "unitName": "South",
+      "capacity": 3500,
+      "userid": "1",
+      "id": 1
+    },
+    {
+      "unitName": "North",
+      "capacity": 3500,
+      "userid": "1",
+      "id": 2
+    },
+    {
+      "unitName": "Unit02",
+      "capacity": 100,
+      "userid": "2",
+      "id": 3
+    },
+    {
+      "unitName": "Unit03",
+      "capacity": 1003,
+      "userid": "2",
+      "id": 4
+    },
+    {
+      "unitName": "First Unit",
+      "capacity": 4000,
+      "userid": "3",
+      "id": 5
+    },
+    {
+      "unitName": "first test",
+      "capacity": 8000,
+      "userid": "3",
+      "id": 6
+    }
+  ],
+  "BatchMaster": [
+    {
+      "userId": "1",
+      "batchName": "First Batch",
+      "unitName": null,
+      "completedStatus": false,
+      "startDate": "2025-01-21",
+      "BatchUnitData": [
+        {
+          "unitName": "South",
+          "capacity": 3500,
+          "userid": "1",
+          "id": 1,
+          "covered": "3000"
+        },
+        {
+          "unitName": "North",
+          "capacity": 3500,
+          "userid": "1",
+          "id": 2,
+          "covered": "3500"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": "2",
+      "batchName": "GK24",
+      "unitName": null,
+      "completedStatus": false,
+      "startDate": "2025-04-13",
+      "BatchUnitData": [
+        {
+          "unitName": "Unit02",
+          "capacity": 1000,
+          "userid": "2",
+          "id": 3,
+          "covered": "20"
+        },
+        {
+          "unitName": "Unit03",
+          "capacity": 1000,
+          "userid": "2",
+          "id": 4,
+          "covered": "40"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": "2",
+      "batchName": "Test01",
+      "unitName": null,
+      "completedStatus": false,
+      "startDate": "2025-04-13",
+      "BatchUnitData": [
+        {
+          "unitName": "Unit02",
+          "capacity": 100,
+          "userid": "2",
+          "id": 3,
+          "covered": "100"
+        },
+        {
+          "unitName": "Unit03",
+          "capacity": 1003,
+          "userid": "2",
+          "id": 4,
+          "covered": "1003"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": "3",
+      "batchName": "Batch01",
+      "unitName": null,
+      "completedStatus": false,
+      "startDate": "2025-08-06",
+      "BatchUnitData": [
+        {
+          "unitName": "First Unit",
+          "capacity": 4000,
+          "userid": "3",
+          "id": 5,
+          "covered": "3000"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": "3",
+      "batchName": "bach02",
+      "unitName": null,
+      "completedStatus": false,
+      "startDate": "2025-08-06",
+      "BatchUnitData": [
+        {
+          "unitName": "First Unit",
+          "capacity": 4000,
+          "userid": "3",
+          "id": 5,
+          "covered": "1000"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "userId": "3",
+      "batchName": "3",
+      "unitName": null,
+      "completedStatus": false,
+      "startDate": "2025-08-07",
+      "BatchUnitData": [
+        {
+          "unitName": "First Unit",
+          "capacity": 4000,
+          "userid": "3",
+          "id": 5,
+          "covered": "100"
+        }
+      ],
+      "id": 6
+    }
+  ],
+  "DeadEntry": [
+    {
+      "userId": "2",
+      "batchId": 2,
+      "batchName": "GK24",
+      "entryDate": "2025-04-13",
+      "lastEntry": false,
+      "startDate": "2025-04-13",
+      "TotalRemaining": 45,
+      "Entry": [
+        {
+          "unit": "Unit02",
+          "covered": "20",
+          "deathcount": 5,
+          "remaining": 15
+        },
+        {
+          "unit": "Unit03",
+          "covered": "40",
+          "deathcount": 10,
+          "remaining": 30
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": "2",
+      "batchId": 2,
+      "batchName": "GK24",
+      "entryDate": "2025-04-14",
+      "lastEntry": true,
+      "startDate": "2025-04-13",
+      "TotalRemaining": 30,
+      "Entry": [
+        {
+          "unit": "Unit02",
+          "covered": "20",
+          "deathcount": 10,
+          "remaining": 10
+        },
+        {
+          "unit": "Unit03",
+          "covered": "40",
+          "deathcount": 20,
+          "remaining": 20
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": "2",
+      "batchId": 3,
+      "batchName": "Test01",
+      "entryDate": "2025-04-13",
+      "lastEntry": false,
+      "startDate": "2025-04-13",
+      "TotalRemaining": 1099,
+      "Entry": [
+        {
+          "unit": "Unit02",
+          "covered": "100",
+          "deathcount": 1,
+          "remaining": 99
+        },
+        {
+          "unit": "Unit03",
+          "covered": "1003",
+          "deathcount": 3,
+          "remaining": 1000
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": "2",
+      "batchId": 3,
+      "batchName": "Test01",
+      "entryDate": "2025-04-14",
+      "lastEntry": false,
+      "startDate": "2025-04-13",
+      "TotalRemaining": 1093,
+      "Entry": [
+        {
+          "unit": "Unit02",
+          "covered": 99,
+          "deathcount": 2,
+          "remaining": 97
+        },
+        {
+          "unit": "Unit03",
+          "covered": 1000,
+          "deathcount": 4,
+          "remaining": 996
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": "2",
+      "batchId": 3,
+      "batchName": "Test01",
+      "entryDate": "2025-04-15",
+      "lastEntry": false,
+      "startDate": "2025-04-13",
+      "TotalRemaining": 1075,
+      "Entry": [
+        {
+          "unit": "Unit02",
+          "covered": 97,
+          "deathcount": 8,
+          "remaining": 89
+        },
+        {
+          "unit": "Unit03",
+          "covered": 996,
+          "deathcount": 10,
+          "remaining": 986
+        }
+      ],
+      "id": 5
+    },
+    {
+      "userId": "3",
+      "batchId": 4,
+      "batchName": "Batch01",
+      "entryDate": "2025-08-06",
+      "lastEntry": false,
+      "startDate": "2025-08-06",
+      "TotalRemaining": 2950,
+      "Entry": [
+        {
+          "unit": "First Unit",
+          "covered": "3000",
+          "deathcount": 50,
+          "remaining": 2950
+        }
+      ],
+      "id": 6
+    },
+    {
+      "userId": "3",
+      "batchId": 4,
+      "batchName": "Batch01",
+      "entryDate": "2025-08-07",
+      "lastEntry": false,
+      "startDate": "2025-08-06",
+      "TotalRemaining": 2890,
+      "Entry": [
+        {
+          "unit": "First Unit",
+          "covered": 2950,
+          "deathcount": 60,
+          "remaining": 2890
+        }
+      ],
+      "id": 7
+    },
+    {
+      "userId": "3",
+      "batchId": 4,
+      "batchName": "Batch01",
+      "entryDate": "2025-08-08",
+      "lastEntry": false,
+      "startDate": "2025-08-06",
+      "TotalRemaining": 2810,
+      "Entry": [
+        {
+          "unit": "First Unit",
+          "covered": 2890,
+          "deathcount": 80,
+          "remaining": 2810
+        }
+      ],
+      "id": 8
+    },
+    {
+      "userId": "3",
+      "batchId": 4,
+      "batchName": "Batch01",
+      "entryDate": "2025-08-09",
+      "lastEntry": false,
+      "startDate": "2025-08-06",
+      "TotalRemaining": 2710,
+      "Entry": [
+        {
+          "unit": "First Unit",
+          "covered": 2810,
+          "deathcount": 100,
+          "remaining": 2710
+        }
+      ],
+      "id": 9
+    },
+    {
+      "userId": "3",
+      "batchId": 4,
+      "batchName": "Batch01",
+      "entryDate": "2025-08-10",
+      "lastEntry": true,
+      "startDate": "2025-08-06",
+      "TotalRemaining": 2510,
+      "Entry": [
+        {
+          "unit": "First Unit",
+          "covered": 2710,
+          "deathcount": 200,
+          "remaining": 2510
+        }
+      ],
+      "id": 10
+    },
+    {
+      "userId": "3",
+      "batchId": 5,
+      "batchName": "bach02",
+      "entryDate": "2025-08-07",
+      "lastEntry": false,
+      "startDate": "2025-08-06",
+      "TotalRemaining": 900,
+      "Entry": [
+        {
+          "unit": "First Unit",
+          "covered": "1000",
+          "deathcount": 100,
+          "remaining": 900
+        }
+      ],
+      "id": 11
+    },
+    {
+      "userId": "3",
+      "batchId": 5,
+      "batchName": "bach02",
+      "entryDate": "2025-08-08",
+      "lastEntry": false,
+      "startDate": "2025-08-06",
+      "TotalRemaining": 700,
+      "Entry": [
+        {
+          "unit": "First Unit",
+          "covered": 900,
+          "deathcount": 200,
+          "remaining": 700
+        }
+      ],
+      "id": 12
+    },
+    {
+      "userId": "3",
+      "batchId": 5,
+      "batchName": "bach02",
+      "entryDate": "2025-08-09",
+      "lastEntry": true,
+      "startDate": "2025-08-06",
+      "TotalRemaining": 400,
+      "Entry": [
+        {
+          "unit": "First Unit",
+          "covered": 700,
+          "deathcount": 300,
+          "remaining": 400
+        }
+      ],
+      "id": 13
+    },
+    {
+      "userId": "3",
+      "batchId": 6,
+      "batchName": "3",
+      "entryDate": "2025-08-07",
+      "lastEntry": false,
+      "startDate": "2025-08-07",
+      "TotalRemaining": 90,
+      "Entry": [
+        {
+          "unit": "First Unit",
+          "covered": "100",
+          "deathcount": 10,
+          "remaining": 90
+        }
+      ],
+      "id": 14
+    }
+  ]
+}

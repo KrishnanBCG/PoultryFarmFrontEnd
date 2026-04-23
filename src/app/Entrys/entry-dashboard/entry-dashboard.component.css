@@ -1,0 +1,105 @@
+
+table {
+    width: 100%;
+  }
+  
+  /* // td , th {
+   
+  //   word-wrap: break-word;
+  //   max-width: 250px;
+  // } */
+  .admin-table tr .ng-star-inserted {
+     font-size: 14px!important; 
+  }
+  
+  [hidden] {
+    display: none !important;
+  }
+  .example-container {
+    height: 100px;
+    max-width: 100%;
+    overflow: auto;
+  }
+  
+  .mat-form-field {
+    font-size: 12px;
+    width: 100%;
+  }
+  
+  tr.table-detail-row {
+    height: 0;
+  }
+  
+  tr.table-element-row:not(.table-expanded-row):hover {
+    background: whitesmoke;
+  }
+  
+  tr.table-element-row:not(.table-expanded-row):active {
+    background: #efefef;
+  }
+  
+  .table-element-row td {
+    border-bottom-width: 0;
+  }
+  
+  ::ng-deep mat-paginator > div > div > div.mat-paginator-page-size.ng-star-inserted
+  
+    {
+        width: 15% !important;
+  
+    }
+    
+    ::ng-deep mat-paginator > div > div > div.mat-paginator-range-actions
+  
+  {
+  
+    width: 84% !important;
+  
+    justify-content: flex-end !important;
+  
+  }
+  
+  .pagi-block{
+  
+    width: 98% !important;
+  
+  }
+  .ad-icon{
+    padding: 4px;
+    width: 25px;
+    border-radius: 5px;
+  } 
+  .icon-blue{
+    background: #3395de;
+  }
+  .icon-black{
+    background: #34495c;
+  }
+  .icon-warn{
+    background: #fe9909;
+  }
+  .icon-green{
+    background: #44b01c;
+  } 
+  .icon-danger{
+    background: #d61d1b;
+  } 
+  
+  
+  .first-data th:first-child {
+    padding-left: 10px !important;
+  }
+  .first-data td:first-child {
+    padding-left: 10px !important;
+  }
+  
+  tr .ng-star-inserted p{
+    margin-bottom: 1px!important;
+    font-weight: 700!important; 
+  }
+  
+  .btn-show-more {
+    font-size: 14px !important;
+    padding: 3px 17px;
+  }
+  

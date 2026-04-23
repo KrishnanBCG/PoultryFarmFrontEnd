@@ -1,0 +1,76 @@
+.inner-masters{
+    flex-direction: column;
+    gap: 3px;
+}
+.list-of-masters > ul > li{
+box-shadow: none;
+padding: 0px 0px;
+border-radius: 3px;
+border: 1px solid #f5f1f4;
+}
+.list-of-masters a{
+    color: #222!important;
+}
+.list-of-masters a:hover{
+    color: #598bff!important;
+}
+.masters-image-desc {
+    justify-content: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #F0F2F2;
+    padding: 7px 15px;
+}
+.masters-image-desc h4 {
+    font-size: 16px !important;
+    margin: 0;
+}
+.list-dept {
+    padding: 6px 9px;
+    width: 100%;
+    text-align: left;
+}
+ul.list-dept li {
+    margin-top: 4px !important;
+    margin-bottom: 4px;
+}
+
+.component-contents .tab-content {
+    background: #ffffff;
+    padding: 15px;
+    box-shadow: 0px 0px 5px gainsboro;
+    min-height: 90vh;
+  }
+  
+  .component-contents.mobile-menu .tab-content {
+    margin-top: 15vh;
+  }
+  
+  .component-contents.desktop-menu .tab-content {
+    margin-top: 12vh;
+  }
+
+.list-of-masters ul {
+    list-style: none; /* Removes bullets */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: flex;
+    gap: 2vh;
+  }
+
+  .list-of-masters li {
+    margin-bottom: 10px; /* Optional: Adds spacing between list items */
+  }
+  ul.list-dept li a{
+    color: #999999;
+    border-radius: 30px;
+    border: 1px solid #CBCBCB;
+    display: inline-block;
+    padding: 3px 11px;
+    font-weight: 500;
+    /* text-decoration: none;
+    transition: 0.4s; */
+    font-size: 14px;
+  }

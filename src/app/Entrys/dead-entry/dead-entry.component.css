@@ -1,0 +1,175 @@
+
+table {
+    width: 100%;
+  }
+  
+  /* // .table-container {
+  //   height: calc(100vh - 155px); // or height: calc(100vh - 155px); depending on your need  change
+  //   overflow: auto;
+  // } */
+
+  [hidden] {
+    display: none !important;
+}
+
+  .table-container[_ngcontent-vxl-c607] {
+
+    max-height: 100vh;
+    /* overflow: revert; */
+    }
+  .example-container {
+    height: 100px;
+    max-width: 100%;
+    overflow: auto;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  tr.table-detail-row {
+    height: 0;
+  }
+  
+  tr.table-element-row:not(.table-expanded-row):hover {
+    background: whitesmoke;
+  }
+  
+  tr.table-element-row:not(.table-expanded-row):active {
+    background: #efefef;
+  }
+  
+  .table-element-row td {
+    border-bottom-width: 0;
+    text-transform: capitalize;
+  }
+  
+  .table-element-detail {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1e1e1;
+    box-shadow: inset 2px 3px 8px #c1c1c1;
+    border-radius: 8px;
+  }
+  
+  .table-element-diagram {
+    min-width: 80px;
+    border: 2px solid black;
+    padding: 8px;
+    font-weight: lighter;
+    margin: 8px 0;
+    height: 104px;
+  }
+  
+  .table-element-symbol {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: normal;
+  }
+  
+  .table-element-description {
+    padding: 16px;
+  }
+  
+  .table-element-description-attribution {
+    opacity: 0.5;
+  }
+
+ 
+
+  ::ng-deep mat-paginator > div > div > div.mat-paginator-page-size.ng-star-inserted
+
+  {
+      width: 24% !important;
+
+  }
+
+
+
+  ::ng-deep mat-paginator > div > div > div.mat-paginator-range-actions
+
+{
+
+  width: 74% !important;
+
+  justify-content: flex-end !important;
+
+}
+
+.pagi-block{
+
+  width: 98% !important;
+  padding: 5px 0px;
+
+}
+.calenderimg {
+
+  right: -4px;
+}
+
+
+.searchwrap-btn{
+    font-size: 13px !important;
+    padding: 3px 10px !important;
+    margin-right: 5px !important;
+  }
+  @media (max-width: 768px) {
+    .patient-lists table {
+      border: none;
+    }
+    .patient-lists table,
+    .patient-lists tr,
+    .patient-lists td {
+      display: block;
+      width: 100%;
+    }
+    .patient-lists td{
+      border: none !important;
+      padding: 10px 15px !important;
+    }
+    .patient-lists tr{
+      border: 1px solid grey;
+      margin-bottom: 10px;
+      padding: 10px 0px;
+    }
+    .patient-lists thead,
+    .patient-lists thead,
+    .patient-lists th {
+      display: none !important;
+    }
+    .patient-lists  tbody,
+    .patient-lists tfoot {
+    
+      display: flex;
+      flex-direction: column;
+    }
+    .patient-lists td:nth-child(1)::before { content: "S.No	: "; font-weight: bold; margin-right: 20px; }
+    .patient-lists td:nth-child(2)::before { content: "Date: "; font-weight: bold; margin-right: 20px;}
+    .patient-lists td:nth-child(3)::before { content: "Batch : "; font-weight: bold;margin-right: 20px; }
+    .patient-lists td:nth-child(4)::before { content: "Dead Count: "; font-weight: bold; margin-right: 20px;}
+    .patient-lists td:nth-child(5)::before { content: "Remining: "; font-weight: bold;margin-right: 20px; }
+    .patient-lists td:nth-child(6)::before { content: "Reason: "; font-weight: bold;margin-right: 20px; }
+    .patient-lists td:nth-child(7)::before { content: "Age: "; font-weight: bold;margin-right: 20px; }
+    .patient-lists td:nth-child(8)::before { content: "Gender: "; font-weight: bold;margin-right: 20px; }
+    .patient-lists td:nth-child(9)::before { content: "MObile: "; font-weight: bold;margin-right: 20px; }
+    .patient-lists td:nth-child(10)::before { content: "Status: "; font-weight: bold;margin-right: 20px; }
+    .patient-lists td:nth-child(11)::before { content: "Action: "; font-weight: bold;margin-right: 20px; }
+
+    .patient-lists-properties ul{
+    top: 15px;
+    left: 10px;
+    right: 0;
+    }
+  }
+  .component-contents .tab-content {
+    min-height: 65vh;
+}
+.component-contents .search-block-wrap + .tab-content {
+  padding-bottom: 0px;
+}
+.tab-contents-block {
+  margin-bottom: 0px;
+}
